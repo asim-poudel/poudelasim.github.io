@@ -81,7 +81,7 @@ h1 {
     box-shadow: 0 0 12px rgba(109, 215, 253, 0.6);
     
     /* Pure CSS Animation instead of JS */
-    animation: loadProgress 1.5s cubic-bezier(0.1, 1, 0.1, 1) forwards;
+    animation: loadProgress 3s cubic-bezier(0.1, 1, 0.1, 1) forwards;
     transform-origin: left;
 }
 
