@@ -3,18 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under Construction</title>
+    <title>Under Construction | Asim Poudel</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Website Under Construction</h1>
-        <p>We are working hard to bring you something amazing.</p>
+    <div class="construction-card">
+        <div class="image-container">
+            <img src="logo.png" alt="Under Construction Illustration" id="construction-img" onerror="this.style.display='none'">
+            </div>
+
+        <h1>Coming Soon</h1>
+        <p class="subtitle">We are polishing up the details and building something exciting. Stay tuned!</p>
         
-        <div class="progress-wrapper">
-            <div class="progress-bar" id="progress"></div>
+        <div class="progress-container">
+            <div class="progress-bar-wrapper">
+                <div class="progress-bar" id="progress"></div>
+            </div>
+            <div class="progress-status">
+                <span>Progress</span>
+                <span id="percentage">75%</span>
+            </div>
         </div>
-        <p id="percentage">75% Completed </p>
+
+        <div class="footer">
+            <p>&copy; 2026 poudelasim.com.np. All rights reserved.</p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
