@@ -1,37 +1,101 @@
+/* Import a clean modern font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #f9f9f7;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-    color: #333;
+    min-height: 100vh;
+    padding: 20px;
+    color: #2d3748;
 }
 
-.container {
+.construction-card {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(109, 215, 253, 0.15);
     text-align: center;
-    width: 80%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 480px;
+    border: 1px solid rgba(109, 215, 253, 0.2);
 }
 
-.progress-wrapper {
-    background-color: #e0e0e0;
-    border-radius: 20px;
-    height: 20px;
+.image-container {
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+#construction-img {
+    max-width: 140px;
+    height: auto;
+    object-fit: contain;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
+}
+
+.subtitle {
+    font-size: 0.95rem;
+    color: #718096;
+    line-height: 1.6;
+    margin-bottom: 32px;
+}
+
+.progress-container {
+    background: #f7fafc;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #edf2f7;
+    margin-bottom: 32px;
+}
+
+.progress-bar-wrapper {
+    background-color: #e2e8f0;
+    border-radius: 99px;
+    height: 12px;
     width: 100%;
-    margin: 20px 0 10px 0;
     overflow: hidden;
+    margin-bottom: 12px;
 }
 
 .progress-bar {
     background-color: #6dd7fd;
     height: 100%;
-    width: 75%; /* Set to 75% */
-    transition: width 1s ease-in-out;
+    width: 0%; /* Dynamic start for the animation */
+    border-radius: 99px;
+    box-shadow: 0 0 12px rgba(109, 215, 253, 0.6);
+    transition: width 1.5s cubic-bezier(0.1, 1, 0.1, 1);
+}
+
+.progress-status {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #4a5568;
 }
 
 #percentage {
-    font-weight: bold;
     color: #6dd7fd;
+    font-weight: 700;
+}
+
+.footer {
+    font-size: 0.75rem;
+    color: #a0aec0;
 }
