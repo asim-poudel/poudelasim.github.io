@@ -1,5 +1,9 @@
-// Currently static, but ready for future dynamic updates
 document.addEventListener("DOMContentLoaded", () => {
-    const progressBar = document.getElementById('progress');
-    console.log("Site is 75% complete. Construction in progress.");
+    // Smoothly animate the loading bar from 0% to 75% on page load
+    setTimeout(() => {
+        const progressBar = document.getElementById('progress');
+        if (progressBar) {
+            progressBar.style.width = '75%';
+        }
+    }, 300);
 });
