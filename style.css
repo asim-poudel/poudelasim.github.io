@@ -1,113 +1,291 @@
-/* Import a clean modern font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@font-face {
+  font-family: "Pixelify Sans";
+  src: url("assets/fonts/pixelify-sans-700.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@font-face {
+  font-family: "8-bit Devanagari";
+  src: url("assets/fonts/8-bit-devanagari.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: only light;
+  --background: #ffffff;
+  --dots: #d9d9d9;
+  --text: #000000;
+  --muted: #454545;
+  --control: #ffffff;
+  --control-border: #000000;
+  --track: #b8b8b8;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: only dark;
+  --background: #000000;
+  --dots: #2f2f2f;
+  --text: #ffffff;
+  --muted: #bcbcbc;
+  --control: #000000;
+  --control-border: #ffffff;
+  --track: #444444;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #f9f9f7;
-    font-family: 'Inter', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 20px;
-    color: #2d3748;
+  min-width: 320px;
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0;
+  padding: clamp(1rem, 2.5vw, 2rem);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  overflow-x: hidden;
+  color: var(--text);
+  background-color: var(--background);
+  background-image: radial-gradient(
+    circle,
+    var(--dots) 1.25px,
+    transparent 1.25px
+  );
+  background-position: 0 0;
+  background-size: 16px 16px;
+  font-family:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    monospace;
+  transition:
+    color 180ms ease,
+    background-color 180ms ease;
 }
 
-.construction-card {
-    background: #ffffff;
-    padding: 40px 30px;
-    border-radius: 24px;
-    box-shadow: 0 10px 30px rgba(109, 215, 253, 0.15);
-    text-align: center;
-    width: 100%;
-    max-width: 480px;
-    border: 1px solid rgba(109, 215, 253, 0.2);
+button {
+  font: inherit;
 }
 
-.image-container {
-    margin-bottom: 24px;
-    display: flex;
-    justify-content: center;
+.site-header,
+.hero,
+.site-footer {
+  width: min(100%, 1440px);
+  margin-inline: auto;
 }
 
-#construction-img {
-    max-width: 140px;
-    height: auto;
-    object-fit: contain;
+.site-header {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-end;
 }
 
-h1 {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #1a202c;
-    margin-bottom: 12px;
-    letter-spacing: -0.5px;
+.theme-toggle {
+  width: 3rem;
+  aspect-ratio: 1;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  color: var(--text);
+  background: var(--control);
+  border: 2px solid var(--control-border);
+  border-radius: 50%;
+  cursor: pointer;
+  transition:
+    color 180ms ease,
+    background-color 180ms ease,
+    transform 120ms ease;
 }
 
-.subtitle {
-    font-size: 0.95rem;
-    color: #718096;
-    line-height: 1.6;
-    margin-bottom: 32px;
+.theme-toggle:hover {
+  transform: translateY(-2px);
 }
 
-.progress-container {
-    background: #f7fafc;
-    padding: 20px;
-    border-radius: 16px;
-    border: 1px solid #edf2f7;
-    margin-bottom: 32px;
+.theme-toggle:focus-visible {
+  outline: 3px solid var(--text);
+  outline-offset: 4px;
 }
 
-.progress-bar-wrapper {
-    background-color: #e2e8f0;
-    border-radius: 99px;
-    height: 12px;
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: 12px;
+.theme-icon {
+  width: 1.35rem;
+  height: 1.35rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-linejoin: miter;
+  stroke-width: 2;
 }
 
-.progress-bar {
-    background-color: #6dd7fd;
-    height: 100%;
-    width: 75%; /* Set the final width explicitly */
-    border-radius: 99px;
-    box-shadow: 0 0 12px rgba(109, 215, 253, 0.6);
-    
-    /* Pure CSS Animation instead of JS */
-    animation: loadProgress 3s cubic-bezier(0.1, 1, 0.1, 1) forwards;
-    transform-origin: left;
+.theme-icon--sun,
+:root[data-theme="dark"] .theme-icon--moon {
+  display: none;
 }
 
-/* Add this animation logic at the very bottom of your style.css file */
-@keyframes loadProgress {
-    from {
-        transform: scaleX(0);
-    }
-    to {
-        transform: scaleX(1);
-    }
-}
-.progress-status {
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: #4a5568;
+:root[data-theme="dark"] .theme-icon--sun {
+  display: block;
 }
 
-#percentage {
-    color: #6dd7fd;
-    font-weight: 700;
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: clamp(2rem, 4vw, 4.5rem);
+  align-items: center;
+  padding: clamp(3rem, 9vh, 6.5rem) clamp(0.25rem, 6vw, 6rem);
 }
 
-.footer {
-    font-size: 0.75rem;
-    color: #a0aec0;
+.identity {
+  min-width: 0;
+  transform: translate(-48px, -64px);
+}
+
+.name {
+  margin: 0;
+  color: var(--text);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.name--english {
+  font-family: "Pixelify Sans", monospace;
+  font-size: clamp(2.5rem, 9.4vw, 9rem);
+  line-height: 0.84;
+  letter-spacing: -0.045em;
+}
+
+.name--nepali {
+  margin-top: clamp(0.625rem, 1.4vw, 1.25rem);
+  font-family: "8-bit Devanagari", monospace;
+  font-size: clamp(2.5rem, 9.5vw, 9rem);
+  font-weight: 400;
+  line-height: 1.08;
+}
+
+.role {
+  margin: clamp(-2.375rem, calc(-2.5vw - 2px), -0.65rem) 0 0;
+  color: var(--muted);
+  font-size: clamp(0.78rem, 1.2vw, 1.05rem);
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.portrait-frame {
+  width: clamp(16rem, 30vw, 28rem);
+  aspect-ratio: 1;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  justify-self: end;
+  transform: translateY(-48px);
+}
+
+.portrait-image {
+  display: block;
+  width: 84%;
+  height: auto;
+  opacity: 1;
+  filter: none;
+  mix-blend-mode: normal;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+.scroll-progress {
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: clamp(0.5rem, 1.4vw, 1.25rem);
+  width: 2px;
+  height: min(34vh, 18rem);
+  min-height: 9rem;
+  overflow: hidden;
+  background: var(--track);
+  transform: translateY(-50%);
+}
+
+.scroll-progress span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--text);
+  transform: scaleY(0.16);
+  transform-origin: top;
+}
+
+@supports (animation-timeline: scroll()) {
+  .scroll-progress span {
+    animation: scroll-progress linear both;
+    animation-timeline: scroll(root block);
+  }
+}
+
+@keyframes scroll-progress {
+  from {
+    transform: scaleY(0.16);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+.site-footer {
+  color: var(--muted);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 639px) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: clamp(2rem, 6vw, 3rem);
+    padding-inline: 0;
+  }
+
+  .identity {
+    transform: translateY(-32px);
+  }
+
+  .name--english {
+    font-size: clamp(2.5rem, 14.5vw, 5.25rem);
+  }
+
+  .name--nepali {
+    font-size: clamp(2.5rem, 14.7vw, 5.3rem);
+  }
+
+  .role {
+    font-size: clamp(0.65rem, 3.15vw, 0.9rem);
+    letter-spacing: 0.08em;
+  }
+
+  .portrait-frame {
+    grid-row: 2;
+    width: clamp(15rem, 68vw, 22rem);
+    max-width: 100%;
+    justify-self: center;
+    transform: translateY(-32px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  body,
+  .theme-toggle {
+    transition: none;
+  }
 }

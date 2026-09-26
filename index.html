@@ -1,34 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="light">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under Construction | Asim Poudel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Portfolio of Asim Poudel, a computer engineer based in Nepal.">
+    <title>Asim Poudel | Computer Engineer</title>
+    <link rel="icon" href="data:,">
+    <link rel="preload" href="assets/fonts/pixelify-sans-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/8-bit-devanagari.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="style.css">
+    <script>
+        try {
+            document.documentElement.dataset.theme = localStorage.getItem("theme") === "dark" ? "dark" : "light";
+        } catch {}
+    </script>
 </head>
 <body>
-    <div class="construction-card">
-        <div class="image-container">
-            <img src="logo.png" alt="Under Construction Illustration" id="construction-img" onerror="this.style.display='none'">
-            </div>
+    <header class="site-header">
+        <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch to dark theme">
+            <svg class="theme-icon theme-icon--moon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z" />
+            </svg>
+            <svg class="theme-icon theme-icon--sun" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="4" />
+                <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41" />
+            </svg>
+        </button>
+    </header>
 
-        <h1>Coming Soon</h1>
-        <p class="subtitle">We are polishing up the details and building something exciting. Stay tuned!</p>
-        
-        <div class="progress-container">
-            <div class="progress-bar-wrapper">
-                <div class="progress-bar" id="progress"></div>
-            </div>
-            <div class="progress-status">
-                <span>Progress</span>
-                <span id="percentage">75%</span>
-            </div>
-        </div>
+    <main class="hero">
+        <section class="identity" aria-labelledby="name-en">
+            <h1 class="name name--english" id="name-en" lang="en">Asim Poudel</h1>
+            <p class="name name--nepali" lang="ne">असिम पौडेल</p>
+            <p class="role">&bull; COMPUTER ENGINEER &bull; NEPAL</p>
+        </section>
 
-        <div class="footer">
-            <p>&copy; 2026 poudelasim.com.np. All rights reserved.</p>
-        </div>
-    </div>
-    <script src="script.js?v=2"></script>
+        <figure class="portrait-frame">
+            <img
+                class="portrait-image"
+                src="assets/images/image.png"
+                width="1254"
+                height="1254"
+                alt="Pixel portrait of Asim Poudel"
+                fetchpriority="high"
+                loading="eager"
+                decoding="async"
+            >
+        </figure>
+    </main>
+
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <footer class="site-footer">
+        <small>&copy; All Rights Reserved.</small>
+    </footer>
+
+    <script src="site.js" defer></script>
 </body>
 </html>
