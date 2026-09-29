@@ -1,0 +1,11 @@
+{
+  "heading": "Projects",
+  "items": [
+    {
+      "heading": "Portfolio website",
+      "description": "A static portfolio for my work, writing, and resume.",
+      "websiteUrl": "https://poudelasim.com.np",
+      "githubUrl": "https://github.com/asim-poudel/poudelasim.github.io"
+    }
+  ]
+}

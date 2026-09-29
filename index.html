@@ -9,6 +9,7 @@
     <link rel="icon" href="data:,">
     <link rel="preload" href="assets/fonts/pixelify-sans-700.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/fonts/8-bit-devanagari.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/epilogue-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="style.css">
     <script>
         try {
@@ -29,31 +30,86 @@
         </button>
     </header>
 
-    <main class="hero">
-        <section class="identity" aria-labelledby="name-en">
-            <h1 class="name name--english" id="name-en" lang="en">Asim Poudel</h1>
-            <p class="name name--nepali" lang="ne">असिम पौडेल</p>
-            <p class="role">&bull; COMPUTER ENGINEER &bull; NEPAL</p>
+    <main class="site-main">
+        <section class="hero" aria-labelledby="name-en">
+            <div class="identity">
+                <h1 class="name name--english" id="name-en" lang="en">Asim Poudel</h1>
+                <p class="name name--nepali" lang="ne">असिम पौडेल</p>
+                <p class="role">&bull; COMPUTER ENGINEER &bull; NEPAL</p>
+            </div>
+
+            <figure class="portrait-frame">
+                <img
+                    class="portrait-image"
+                    src="assets/images/image.png"
+                    width="1254"
+                    height="1254"
+                    alt="Pixel portrait of Asim Poudel"
+                    fetchpriority="high"
+                    loading="eager"
+                    decoding="async"
+                >
+            </figure>
+
+            <nav class="portfolio-nav" aria-label="Portfolio sections">
+                <a class="portfolio-nav__link" href="#about">About</a>
+                <span class="portfolio-nav__separator" aria-hidden="true">|</span>
+                <a class="portfolio-nav__link" href="#projects">Projects</a>
+                <span class="portfolio-nav__separator" aria-hidden="true">|</span>
+                <a class="portfolio-nav__link" href="#links">GitHub</a>
+                <span class="portfolio-nav__separator" aria-hidden="true">|</span>
+                <a class="portfolio-nav__link" href="#thoughts">Thoughts</a>
+                <span class="portfolio-nav__separator" aria-hidden="true">|</span>
+                <a class="portfolio-nav__link portfolio-nav__link--resume" href="#links">Resume</a>
+            </nav>
         </section>
 
-        <figure class="portrait-frame">
-            <img
-                class="portrait-image"
-                src="assets/images/image.png"
-                width="1254"
-                height="1254"
-                alt="Pixel portrait of Asim Poudel"
-                fetchpriority="high"
-                loading="eager"
-                decoding="async"
-            >
-        </figure>
+        <div class="content-sections">
+            <section class="content-section" id="about" aria-labelledby="about-heading">
+                <h2 class="section-heading" id="about-heading" data-about-heading>About</h2>
+                <div class="about-copy" data-about-content aria-live="polite">
+                    <p class="section-status">Loading about...</p>
+                </div>
+            </section>
+
+            <section class="content-section" id="projects" aria-labelledby="projects-heading">
+                <h2 class="section-heading" id="projects-heading" data-projects-heading>Projects</h2>
+                <div class="entry-list" data-projects-content aria-live="polite">
+                    <p class="section-status">Loading projects...</p>
+                </div>
+            </section>
+
+            <section class="content-section" id="thoughts" aria-labelledby="thoughts-heading">
+                <h2 class="section-heading" id="thoughts-heading" data-thoughts-heading>Thoughts</h2>
+                <div class="entry-list" data-thoughts-content aria-live="polite">
+                    <p class="section-status">Loading thoughts...</p>
+                </div>
+            </section>
+
+            <section class="content-section links-section" id="links" aria-labelledby="links-heading">
+                <h2 class="section-heading" id="links-heading">Links</h2>
+                <div class="link-actions">
+                    <a class="action-link" href="https://github.com/asim-poudel">
+                        <span class="action-link__icon" aria-hidden="true">
+                            <img class="github-mark github-mark--light" src="assets/images/light.png" width="512" height="512" alt="">
+                            <img class="github-mark github-mark--dark" src="assets/images/dark.png" width="512" height="512" alt="">
+                        </span>
+                        <span>Open GitHub</span>
+                    </a>
+                    <a class="action-link" href="assets/resume.pdf" download>
+                        <img class="action-link__icon resume-mark" src="assets/images/resume-monochrome.png" width="447" height="447" alt="">
+                        <span>Download Resume</span>
+                    </a>
+                </div>
+            </section>
+        </div>
     </main>
 
     <div class="scroll-progress" aria-hidden="true"><span></span></div>
 
     <footer class="site-footer">
         <small>&copy; All Rights Reserved.</small>
+        <small>&bull;notjustauser</small>
     </footer>
 
     <script src="site.js" defer></script>
