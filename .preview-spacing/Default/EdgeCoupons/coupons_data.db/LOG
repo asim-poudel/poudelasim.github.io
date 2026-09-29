@@ -1,0 +1,5 @@
+2026/09/30-03:17:03.049 7f78 Creating DB D:\portfolio\.preview-spacing\Default\EdgeCoupons/coupons_data.db since it was missing.
+2026/09/30-03:17:03.076 7f78 Reusing MANIFEST D:\portfolio\.preview-spacing\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2026/09/30-03:17:03.251 5fe8 Level-0 table #5: started
+2026/09/30-03:17:03.264 5fe8 Level-0 table #5: 683273 bytes OK
+2026/09/30-03:17:03.274 5fe8 Delete type=0 #3

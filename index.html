@@ -56,11 +56,13 @@
                 <span class="portfolio-nav__separator" aria-hidden="true">|</span>
                 <a class="portfolio-nav__link" href="#projects">Projects</a>
                 <span class="portfolio-nav__separator" aria-hidden="true">|</span>
-                <a class="portfolio-nav__link" href="#links">GitHub</a>
-                <span class="portfolio-nav__separator" aria-hidden="true">|</span>
                 <a class="portfolio-nav__link" href="#thoughts">Thoughts</a>
                 <span class="portfolio-nav__separator" aria-hidden="true">|</span>
-                <a class="portfolio-nav__link portfolio-nav__link--resume" href="#links">Resume</a>
+                <a class="portfolio-nav__link" href="#links">GitHub</a>
+                <span class="portfolio-nav__separator" aria-hidden="true">|</span>
+                <a class="portfolio-nav__link" href="#links">Resume</a>
+                <span class="portfolio-nav__separator" aria-hidden="true">|</span>
+                <a class="portfolio-nav__link" href="#contact">Contact</a>
             </nav>
         </section>
 
@@ -89,17 +91,21 @@
             <section class="content-section links-section" id="links" aria-labelledby="links-heading">
                 <h2 class="section-heading" id="links-heading">Links</h2>
                 <div class="link-actions">
-                    <a class="action-link" href="https://github.com/asim-poudel">
-                        <span class="action-link__icon" aria-hidden="true">
-                            <img class="github-mark github-mark--light" src="assets/images/light.png" width="512" height="512" alt="">
-                            <img class="github-mark github-mark--dark" src="assets/images/dark.png" width="512" height="512" alt="">
-                        </span>
+                    <a class="action-link" href="https://github.com/asim-poudel" target="_blank" rel="noopener noreferrer" aria-label="Open GitHub profile in a new tab">
+                        <span class="action-link__icon icon-mask icon-mask--github" aria-hidden="true"></span>
                         <span>Open GitHub</span>
                     </a>
                     <a class="action-link" href="assets/resume.pdf" download>
-                        <img class="action-link__icon resume-mark" src="assets/images/resume-monochrome.png" width="447" height="447" alt="">
+                        <span class="action-link__icon resume-mark icon-mask icon-mask--resume" aria-hidden="true"></span>
                         <span>Download Resume</span>
                     </a>
+                </div>
+            </section>
+
+            <section class="content-section" id="contact" aria-labelledby="contact-heading">
+                <h2 class="section-heading" id="contact-heading" data-contact-heading>Contact</h2>
+                <div class="contact-content" data-contact-content aria-live="polite">
+                    <p class="section-status">Loading contact...</p>
                 </div>
             </section>
         </div>

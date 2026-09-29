@@ -226,9 +226,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: clamp(0.5rem, 1.5vw, 1.4rem);
+  gap: clamp(0.3rem, 0.85vw, 1.2rem);
   font-family: "Pixelify Sans", monospace;
-  font-size: clamp(1.25rem, 2.3vw, 2.2rem);
+  font-size: clamp(1rem, 2.3vw, 2.2rem);
   font-weight: 700;
   line-height: 1;
   white-space: nowrap;
@@ -359,20 +359,22 @@ a {
 }
 
 .github-link {
-  width: 2rem;
-  min-width: 2rem;
+  width: 2.5rem;
+  min-width: 2.5rem;
   aspect-ratio: 1;
   display: inline-grid;
   place-items: center;
-  border: 2px solid transparent;
-  border-radius: 50%;
   transition:
-    border-color 140ms ease,
+    color 140ms ease,
     transform 120ms ease;
 }
 
+.github-link:hover,
+.github-link:focus-visible {
+  color: var(--accent);
+}
+
 .github-link:hover {
-  border-color: var(--accent);
   transform: translateY(-1px);
 }
 
@@ -380,16 +382,49 @@ a {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: contain;
 }
 
-.github-mark--dark,
-:root[data-theme="dark"] .github-mark--light {
-  display: none;
-}
-
-:root[data-theme="dark"] .github-mark--dark {
+.icon-mask {
   display: block;
+  flex: none;
+  background-color: currentColor;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  transition: background-color 140ms ease;
+}
+
+.icon-mask--github {
+  -webkit-mask-image: url("assets/images/light.png");
+  mask-image: url("assets/images/light.png");
+}
+
+.icon-mask--resume {
+  -webkit-mask-image: url("assets/images/resume-monochrome.png");
+  mask-image: url("assets/images/resume-monochrome.png");
+}
+
+.icon-mask--gmail {
+  -webkit-mask-image: url("assets/images/gmail.svg");
+  mask-image: url("assets/images/gmail.svg");
+}
+
+.icon-mask--facebook {
+  -webkit-mask-image: url("assets/images/facebook.svg");
+  mask-image: url("assets/images/facebook.svg");
+}
+
+.icon-mask--instagram {
+  -webkit-mask-image: url("assets/images/instagram.svg");
+  mask-image: url("assets/images/instagram.svg");
+}
+
+.icon-mask--linkedin {
+  -webkit-mask-image: url("assets/images/linkedin.svg");
+  mask-image: url("assets/images/linkedin.svg");
 }
 
 .section-status {
@@ -465,11 +500,99 @@ a {
   height: 3.4375rem;
   min-width: 3.4375rem;
   display: block;
-  transition: filter 180ms ease;
 }
 
-:root[data-theme="dark"] .resume-mark {
-  filter: invert(1);
+.contact-content {
+  padding-top: clamp(1rem, 2vw, 2rem);
+  font-family: "Epilogue", sans-serif;
+}
+
+.contact-actions {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(2rem, 5vw, 4.5rem);
+}
+
+.contact-action {
+  width: 3.5rem;
+  min-width: 3.5rem;
+  height: 3.5rem;
+  min-height: 44px;
+  padding: 0.5rem;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  background: transparent;
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition:
+    color 140ms ease,
+    width 180ms ease,
+    transform 120ms ease;
+}
+
+.contact-action:hover,
+.contact-action:focus-visible {
+  color: var(--accent);
+}
+
+.contact-action:hover {
+  transform: translateY(-1px);
+}
+
+.contact-action:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.contact-action__icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  min-width: 2.5rem;
+}
+
+.contact-action--email.is-revealed {
+  width: min(19rem, 100%);
+  justify-content: flex-start;
+}
+
+.contact-action__address {
+  max-width: 0;
+  margin-left: 0;
+  overflow: hidden;
+  opacity: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  white-space: nowrap;
+  transition:
+    max-width 180ms ease,
+    margin-left 180ms ease,
+    opacity 140ms ease;
+}
+
+.contact-action--email.is-revealed .contact-action__address {
+  max-width: 15rem;
+  margin-left: 0.75rem;
+  opacity: 1;
+}
+
+.contact-copy-status {
+  min-height: 1.5em;
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .scroll-progress {
@@ -573,10 +696,6 @@ a {
     display: none;
   }
 
-  .portfolio-nav__link--resume {
-    grid-column: 1 / -1;
-  }
-
   .content-section {
     scroll-margin-top: 1rem;
     padding: 2rem 1rem 3.5rem;
@@ -591,6 +710,15 @@ a {
   }
 
   .action-link {
+    width: 100%;
+  }
+
+  .contact-actions {
+    gap: clamp(0.5rem, 2.5vw, 0.65rem);
+  }
+
+  .contact-action--email.is-revealed {
+    flex: 0 0 100%;
     width: 100%;
   }
 
@@ -610,7 +738,9 @@ a {
   .entry__link,
   .github-link,
   .action-link,
-  .resume-mark {
+  .contact-action,
+  .contact-action__address,
+  .icon-mask {
     transition: none;
   }
 }

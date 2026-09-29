@@ -34,6 +34,16 @@ function requiredHttpsUrl(value, name) {
     return url.href;
 }
 
+function requiredEmail(value, name) {
+    const email = requiredText(value, name);
+
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        throw new Error(`${name} must be a valid email address`);
+    }
+
+    return email;
+}
+
 async function loadJson(path) {
     const response = await fetch(path, { cache: "no-store" });
 
@@ -72,6 +82,9 @@ function createEntry(heading, description, url) {
     const link = document.createElement("a");
     link.className = "entry__link";
     link.href = url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.setAttribute("aria-label", `${heading} (opens in a new tab)`);
     link.textContent = heading;
     title.append(link);
     headingRow.append(title);
@@ -88,18 +101,14 @@ function createGitHubLink(projectHeading, githubUrl) {
     const link = document.createElement("a");
     link.className = "github-link";
     link.href = githubUrl;
-    link.setAttribute("aria-label", `View the ${projectHeading} repository on GitHub`);
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.setAttribute("aria-label", `View the ${projectHeading} repository on GitHub in a new tab`);
 
-    for (const theme of ["light", "dark"]) {
-        const image = document.createElement("img");
-        image.className = `github-mark github-mark--${theme}`;
-        image.src = `assets/images/${theme}.png`;
-        image.width = 512;
-        image.height = 512;
-        image.alt = "";
-        image.decoding = "async";
-        link.append(image);
-    }
+    const mark = document.createElement("span");
+    mark.className = "github-mark icon-mask icon-mask--github";
+    mark.setAttribute("aria-hidden", "true");
+    link.append(mark);
 
     return link;
 }
@@ -156,6 +165,120 @@ function renderThoughts(data) {
     container.replaceChildren(...entries);
 }
 
+async function copyToClipboard(text) {
+    if (navigator.clipboard?.writeText) {
+        try {
+            await navigator.clipboard.writeText(text);
+            return true;
+        } catch {}
+    }
+
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.readOnly = true;
+    textarea.style.position = "fixed";
+    textarea.style.opacity = "0";
+    document.body.append(textarea);
+    textarea.select();
+
+    try {
+        return typeof document.execCommand === "function" && document.execCommand("copy");
+    } catch {
+        return false;
+    } finally {
+        textarea.remove();
+    }
+}
+
+function renderContact(data) {
+    document.querySelector("[data-contact-heading]").textContent = requiredText(data.heading, "contact.heading");
+
+    const email = requiredEmail(data.email, "contact.email");
+    const socials = [
+        ["Facebook", "facebook", requiredHttpsUrl(data.facebookUrl, "contact.facebookUrl")],
+        ["Instagram", "instagram", requiredHttpsUrl(data.instagramUrl, "contact.instagramUrl")],
+        ["LinkedIn", "linkedin", requiredHttpsUrl(data.linkedinUrl, "contact.linkedinUrl")]
+    ];
+    const actions = document.createElement("div");
+    actions.className = "contact-actions";
+
+    const emailButton = document.createElement("button");
+    emailButton.className = "contact-action contact-action--email";
+    emailButton.type = "button";
+    emailButton.setAttribute("aria-label", `Copy ${email} to clipboard`);
+    emailButton.setAttribute("aria-expanded", "false");
+    emailButton.setAttribute("aria-controls", "contact-email-address");
+
+    const emailIcon = document.createElement("span");
+    emailIcon.className = "contact-action__icon icon-mask icon-mask--gmail";
+    emailIcon.setAttribute("aria-hidden", "true");
+
+    const address = document.createElement("span");
+    address.className = "contact-action__address";
+    address.id = "contact-email-address";
+    address.textContent = email;
+    address.setAttribute("aria-hidden", "true");
+    emailButton.append(emailIcon, address);
+    actions.append(emailButton);
+
+    for (const [label, icon, url] of socials) {
+        const link = document.createElement("a");
+        link.className = "contact-action";
+        link.href = url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.setAttribute("aria-label", `Open ${label} profile in a new tab`);
+
+        const mark = document.createElement("span");
+        mark.className = `contact-action__icon icon-mask icon-mask--${icon}`;
+        mark.setAttribute("aria-hidden", "true");
+        link.append(mark);
+        actions.append(link);
+    }
+
+    const copyStatus = document.createElement("p");
+    copyStatus.className = "contact-copy-status";
+    copyStatus.setAttribute("role", "status");
+    copyStatus.setAttribute("aria-live", "polite");
+    copyStatus.setAttribute("aria-atomic", "true");
+
+    let copyStatusTimer;
+    let emailActionId = 0;
+    emailButton.addEventListener("click", async () => {
+        const expanded = !emailButton.classList.contains("is-revealed");
+        const actionId = ++emailActionId;
+
+        clearTimeout(copyStatusTimer);
+        copyStatus.textContent = "";
+        emailButton.classList.toggle("is-revealed", expanded);
+        emailButton.setAttribute("aria-expanded", String(expanded));
+        emailButton.setAttribute("aria-label", expanded ? `Hide ${email}` : `Copy ${email} to clipboard`);
+        address.setAttribute("aria-hidden", String(!expanded));
+        emailButton.focus();
+
+        if (!expanded) {
+            return;
+        }
+
+        const copied = await copyToClipboard(email);
+
+        if (actionId !== emailActionId || !emailButton.classList.contains("is-revealed")) {
+            return;
+        }
+
+        copyStatus.textContent = copied
+            ? "Email copied to clipboard."
+            : "Copy failed. Email is shown above.";
+        copyStatusTimer = setTimeout(() => {
+            if (actionId === emailActionId) {
+                copyStatus.textContent = "";
+            }
+        }, 3000);
+    });
+
+    document.querySelector("[data-contact-content]").replaceChildren(actions, copyStatus);
+}
+
 function loadSection(path, render, containerSelector, errorMessage) {
     loadJson(path)
         .then(render)
@@ -173,3 +296,4 @@ toggle.addEventListener("click", () => {
 loadSection("about.json", renderAbout, "[data-about-content]", "About content is unavailable.");
 loadSection("project.json", renderProjects, "[data-projects-content]", "Projects are unavailable.");
 loadSection("thoughts.json", renderThoughts, "[data-thoughts-content]", "Thoughts are unavailable.");
+loadSection("contact.json", renderContact, "[data-contact-content]", "Contact links are unavailable.");
