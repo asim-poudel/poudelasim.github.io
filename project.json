@@ -2,10 +2,28 @@
   "heading": "Projects",
   "items": [
     {
-      "heading": "Portfolio website",
-      "description": "A static portfolio for my work, writing, and resume.",
-      "websiteUrl": "https://poudelasim.com.np",
-      "githubUrl": "https://github.com/asim-poudel/poudelasim.github.io"
+      "heading": "Current Price",
+      "description": "A day-ahead electricity forecasting dashboard that combines SMARD market data, CNN-LSTM inference, FastAPI, PostgreSQL, and Next.js.",
+      "websiteUrl": "https://current-price-hhh.vercel.app",
+      "githubUrl": "https://github.com/asim-poudel/Current-Price"
+    },
+    {
+      "heading": "Global Commodity Trade Analytics",
+      "description": "An interactive React and FastAPI dashboard for exploring global commodity trade, country balances, product concentration, and advanced analytics from 1988 to 2016.",
+      "websiteUrl": "https://global-commodity-dashboard.vercel.app",
+      "githubUrl": "https://github.com/DontHash/GlobalCommodity"
+    },
+    {
+      "heading": "Conic Lab",
+      "description": "An interactive Three.js visualizer with a Python geometry API for exploring and classifying the curves formed when a plane intersects a double-napped cone.",
+      "websiteUrl": "https://conic-section-visualizer.vercel.app",
+      "githubUrl": "https://github.com/asim-poudel/conic-section-visualizer"
+    },
+    {
+      "heading": "Skill Forge",
+      "description": "An adaptive learning platform with RPG-style progression, performance-based quizzes, machine-learning personalization, and real-time skill-path tracking.",
+      "websiteUrl": "https://github.com/Ssaammmmiitt/Skill-Forge",
+      "githubUrl": "https://github.com/Ssaammmmiitt/Skill-Forge"
     }
   ]
 }
