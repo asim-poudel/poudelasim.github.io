@@ -318,6 +318,11 @@ a {
 
 .entry-list {
   display: grid;
+  gap: clamp(2rem, 4vw, 3rem);
+}
+
+.entry-items {
+  display: grid;
   gap: clamp(3rem, 6vw, 5rem);
 }
 
@@ -425,6 +430,55 @@ a {
 .icon-mask--linkedin {
   -webkit-mask-image: url("assets/images/linkedin.svg");
   mask-image: url("assets/images/linkedin.svg");
+}
+
+.icon-mask--dropdown {
+  -webkit-mask-image: url("assets/images/dropdown-transparent.png");
+  mask-image: url("assets/images/dropdown-transparent.png");
+}
+
+.entry-toggle {
+  width: 3.5rem;
+  height: 3.5rem;
+  min-height: 44px;
+  padding: 0.5rem;
+  display: grid;
+  place-items: center;
+  justify-self: center;
+  color: var(--text);
+  background: transparent;
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition:
+    color 140ms ease,
+    transform 120ms ease;
+}
+
+.entry-toggle:hover,
+.entry-toggle:focus-visible {
+  color: var(--accent);
+}
+
+.entry-toggle:hover {
+  transform: translateY(-1px);
+}
+
+.entry-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.entry-toggle__icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  transition:
+    background-color 140ms ease,
+    transform 180ms ease;
+}
+
+.entry-toggle[aria-expanded="true"] .entry-toggle__icon {
+  transform: rotate(180deg);
 }
 
 .section-status {
@@ -737,6 +791,8 @@ a {
   .portfolio-nav__link,
   .entry__link,
   .github-link,
+  .entry-toggle,
+  .entry-toggle__icon,
   .action-link,
   .contact-action,
   .contact-action__address,

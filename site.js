@@ -113,6 +113,48 @@ function createGitHubLink(projectHeading, githubUrl) {
     return link;
 }
 
+function renderEntryList(container, entries, itemName) {
+    const list = document.createElement("div");
+    list.className = "entry-items";
+    list.id = `${itemName}-items`;
+    list.append(...entries);
+
+    if (entries.length <= 3) {
+        container.replaceChildren(list);
+        return;
+    }
+
+    const extraEntries = entries.slice(3);
+    const toggle = document.createElement("button");
+    toggle.className = "entry-toggle";
+    toggle.type = "button";
+    toggle.setAttribute("aria-controls", list.id);
+
+    const mark = document.createElement("span");
+    mark.className = "entry-toggle__icon icon-mask icon-mask--dropdown";
+    mark.setAttribute("aria-hidden", "true");
+    toggle.append(mark);
+
+    const setExpanded = (expanded) => {
+        extraEntries.forEach((entry) => {
+            entry.hidden = !expanded;
+        });
+        toggle.setAttribute("aria-expanded", String(expanded));
+        toggle.setAttribute(
+            "aria-label",
+            expanded
+                ? `Show fewer ${itemName}s`
+                : `Show ${extraEntries.length} more ${extraEntries.length === 1 ? itemName : `${itemName}s`}`
+        );
+    };
+
+    toggle.addEventListener("click", () => {
+        setExpanded(toggle.getAttribute("aria-expanded") !== "true");
+    });
+    setExpanded(false);
+    container.replaceChildren(list, toggle);
+}
+
 function renderProjects(data) {
     document.querySelector("[data-projects-heading]").textContent = requiredText(data.heading, "projects.heading");
 
@@ -138,7 +180,7 @@ function renderProjects(data) {
         return article;
     });
 
-    container.replaceChildren(...entries);
+    renderEntryList(container, entries, "project");
 }
 
 function renderThoughts(data) {
@@ -162,7 +204,7 @@ function renderThoughts(data) {
         return createEntry(heading, description, blogUrl).article;
     });
 
-    container.replaceChildren(...entries);
+    renderEntryList(container, entries, "thought");
 }
 
 async function copyToClipboard(text) {
