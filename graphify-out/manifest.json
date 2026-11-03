@@ -1,0 +1,1382 @@
+{
+  ".preview-spacing/Default/Blueprints/blueprint_presence_index.json": {
+    "mtime": 1790718766.4627206,
+    "seen": 1791815776.1116967,
+    "ast_hash": "7693fc868ad69a7bc13b005dd08cdf6d",
+    "semantic_hash": "7693fc868ad69a7bc13b005dd08cdf6d"
+  },
+  ".preview-spacing/Default/DualEngine/SiteList-Consumer.json": {
+    "mtime": 1790718766.497722,
+    "seen": 1791815776.1116967,
+    "ast_hash": "99914b932bd37a50b983c5e7c90ae93b",
+    "semantic_hash": "99914b932bd37a50b983c5e7c90ae93b"
+  },
+  ".preview-spacing/Default/DualEngine/SiteList-Enterprise.json": {
+    "mtime": 1790718766.497722,
+    "seen": 1791815776.1116967,
+    "ast_hash": "99914b932bd37a50b983c5e7c90ae93b",
+    "semantic_hash": "99914b932bd37a50b983c5e7c90ae93b"
+  },
+  ".preview-spacing/Default/EntityExtraction/domains_config.json": {
+    "mtime": 1790718766.51175,
+    "seen": 1791815776.1116967,
+    "ast_hash": "41cf4fb0d6f2f50043a10f0c031a93dd",
+    "semantic_hash": "41cf4fb0d6f2f50043a10f0c031a93dd"
+  },
+  ".preview-spacing/Default/arbitration_service_config.json": {
+    "mtime": 1790718766.5533752,
+    "seen": 1791815776.1116967,
+    "ast_hash": "6f261a3b5c5b6d6254697284135a15a8",
+    "semantic_hash": "6f261a3b5c5b6d6254697284135a15a8"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/domains_config_gz/2.0.0-DeepEEEnUsProductByRegexOnly/metadata.json": {
+    "mtime": 1790718766.565371,
+    "seen": 1791815776.1116967,
+    "ast_hash": "d8b5eebd93aa9c9a3ce0d328162cfc8e",
+    "semantic_hash": "d8b5eebd93aa9c9a3ce0d328162cfc8e"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/domains_config_gz/2.0.0-DeepEEEnUs/metadata.json": {
+    "mtime": 1790718766.5643256,
+    "seen": 1791815776.1116967,
+    "ast_hash": "434210646854056abdf236558446417f",
+    "semantic_hash": "434210646854056abdf236558446417f"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/domains_config_gz/2.0.0/metadata.json": {
+    "mtime": 1790718766.567568,
+    "seen": 1791815776.1116967,
+    "ast_hash": "5f0a57f6e0d8ed4775f2e157c3c6e8d8",
+    "semantic_hash": "5f0a57f6e0d8ed4775f2e157c3c6e8d8"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/domains_config_gz/3.0.0-DeepEEEnUsProductByRegexOnly/metadata.json": {
+    "mtime": 1790718766.569333,
+    "seen": 1791815776.1116967,
+    "ast_hash": "c92759a5e301c9802d6ef88b347244ac",
+    "semantic_hash": "c92759a5e301c9802d6ef88b347244ac"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/domains_config_gz/3.0.0-DeepEEEnUsRegexOnly/metadata.json": {
+    "mtime": 1790718766.5703576,
+    "seen": 1791815776.1116967,
+    "ast_hash": "ea7f315a6660dd80fed4290fb7ffb906",
+    "semantic_hash": "ea7f315a6660dd80fed4290fb7ffb906"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/domains_config_gz/3.0.0-DeepEEEnUs/metadata.json": {
+    "mtime": 1790718766.568775,
+    "seen": 1791815776.1116967,
+    "ast_hash": "446b836d3c4bb75d15b9cf777ff6c5bd",
+    "semantic_hash": "446b836d3c4bb75d15b9cf777ff6c5bd"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/domains_config_gz/3.0.0-HeuristicClassifierOptimization/metadata.json": {
+    "mtime": 1790718766.5713933,
+    "seen": 1791815776.1116967,
+    "ast_hash": "113376a9b4c90a30b2b38ff806c15048",
+    "semantic_hash": "113376a9b4c90a30b2b38ff806c15048"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/domains_config_gz/3.0.0-LogisticProductPageClassifier/metadata.json": {
+    "mtime": 1790718766.571932,
+    "seen": 1791815776.1116967,
+    "ast_hash": "077b13ac168ba5fd904af10ff7cbc17e",
+    "semantic_hash": "077b13ac168ba5fd904af10ff7cbc17e"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/domains_config_gz/3.0.0/metadata.json": {
+    "mtime": 1790718766.573529,
+    "seen": 1791815776.1116967,
+    "ast_hash": "35676165a9aab8ddf5901e02a014a8c3",
+    "semantic_hash": "35676165a9aab8ddf5901e02a014a8c3"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/manifest.json": {
+    "mtime": 1790718766.573529,
+    "seen": 1791815776.1116967,
+    "ast_hash": "b34cd70a8713a96cc402703bc92581da",
+    "semantic_hash": "b34cd70a8713a96cc402703bc92581da"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/onnx.product.desktop.en/3.2.3/metadata.json": {
+    "mtime": 1790718766.6490004,
+    "seen": 1791815776.1116967,
+    "ast_hash": "e5de7bf78845883190e86568a73049b4",
+    "semantic_hash": "e5de7bf78845883190e86568a73049b4"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/pre-release/domains_config_gz/2.0.0-DeepEEEnUsProductByRegexOnly/metadata.json": {
+    "mtime": 1790718766.6520002,
+    "seen": 1791815776.1116967,
+    "ast_hash": "d8b5eebd93aa9c9a3ce0d328162cfc8e",
+    "semantic_hash": "d8b5eebd93aa9c9a3ce0d328162cfc8e"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/pre-release/domains_config_gz/2.0.0-DeepEEEnUs/metadata.json": {
+    "mtime": 1790718766.6509988,
+    "seen": 1791815776.1116967,
+    "ast_hash": "434210646854056abdf236558446417f",
+    "semantic_hash": "434210646854056abdf236558446417f"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/pre-release/domains_config_gz/2.0.0/metadata.json": {
+    "mtime": 1790718766.6540177,
+    "seen": 1791815776.1116967,
+    "ast_hash": "5f0a57f6e0d8ed4775f2e157c3c6e8d8",
+    "semantic_hash": "5f0a57f6e0d8ed4775f2e157c3c6e8d8"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/pre-release/domains_config_gz/3.0.0-DeepEEEnUsProductByRegexOnly/metadata.json": {
+    "mtime": 1790718766.656,
+    "seen": 1791815776.1116967,
+    "ast_hash": "c92759a5e301c9802d6ef88b347244ac",
+    "semantic_hash": "c92759a5e301c9802d6ef88b347244ac"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/pre-release/domains_config_gz/3.0.0-DeepEEEnUsRegexOnly/metadata.json": {
+    "mtime": 1790718766.658002,
+    "seen": 1791815776.1116967,
+    "ast_hash": "ea7f315a6660dd80fed4290fb7ffb906",
+    "semantic_hash": "ea7f315a6660dd80fed4290fb7ffb906"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/pre-release/domains_config_gz/3.0.0-DeepEEEnUs/metadata.json": {
+    "mtime": 1790718766.6549993,
+    "seen": 1791815776.1116967,
+    "ast_hash": "446b836d3c4bb75d15b9cf777ff6c5bd",
+    "semantic_hash": "446b836d3c4bb75d15b9cf777ff6c5bd"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/pre-release/domains_config_gz/3.0.0-HeuristicClassifierOptimization/metadata.json": {
+    "mtime": 1790718766.658002,
+    "seen": 1791815776.1116967,
+    "ast_hash": "113376a9b4c90a30b2b38ff806c15048",
+    "semantic_hash": "113376a9b4c90a30b2b38ff806c15048"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/pre-release/domains_config_gz/3.0.0-LogisticProductPageClassifier/metadata.json": {
+    "mtime": 1790718766.6590009,
+    "seen": 1791815776.1116967,
+    "ast_hash": "077b13ac168ba5fd904af10ff7cbc17e",
+    "semantic_hash": "077b13ac168ba5fd904af10ff7cbc17e"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/pre-release/domains_config_gz/3.0.0/metadata.json": {
+    "mtime": 1790718766.660001,
+    "seen": 1791815776.1116967,
+    "ast_hash": "35676165a9aab8ddf5901e02a014a8c3",
+    "semantic_hash": "35676165a9aab8ddf5901e02a014a8c3"
+  },
+  ".preview-spacing/Edge Entity Extraction/2026.9.20.2/pre-release/onnx.product.desktop.en/3.2.4/metadata.json": {
+    "mtime": 1790718766.744089,
+    "seen": 1791815776.1116967,
+    "ast_hash": "ca63b10ecf712a0fcd851787a064825c",
+    "semantic_hash": "ca63b10ecf712a0fcd851787a064825c"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_ImageCreator_DarkMode.png/1.0.25/metadata.json": {
+    "mtime": 1790718766.746102,
+    "seen": 1791815776.1116967,
+    "ast_hash": "fa2967df9d38e661cb206ceb9cffad80",
+    "semantic_hash": "fa2967df9d38e661cb206ceb9cffad80"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_ImageCreator_HighContrast.png/1.0.25/metadata.json": {
+    "mtime": 1790718766.7466094,
+    "seen": 1791815776.1116967,
+    "ast_hash": "b2b27c37626cc1c45215d35af28a58d6",
+    "semantic_hash": "b2b27c37626cc1c45215d35af28a58d6"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_ImageCreator_LightMode.png/1.0.25/metadata.json": {
+    "mtime": 1790718766.7476182,
+    "seen": 1791815776.1116967,
+    "ast_hash": "06ac58aa0eba8950a3123a9df4beef54",
+    "semantic_hash": "06ac58aa0eba8950a3123a9df4beef54"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_M365_dark.png/1.7.43/metadata.json": {
+    "mtime": 1790718766.7486184,
+    "seen": 1791815776.1116967,
+    "ast_hash": "ba564a9a3329ffd08d1528049a5259d3",
+    "semantic_hash": "ba564a9a3329ffd08d1528049a5259d3"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_M365_hc.png/1.7.43/metadata.json": {
+    "mtime": 1790718766.7516172,
+    "seen": 1791815776.1116967,
+    "ast_hash": "245b9c741207203c9058df3d331798cb",
+    "semantic_hash": "245b9c741207203c9058df3d331798cb"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_M365_light.png/1.7.43/metadata.json": {
+    "mtime": 1790718766.752618,
+    "seen": 1791815776.1116967,
+    "ast_hash": "2092cf37de79e7e01569cc1778c058a2",
+    "semantic_hash": "2092cf37de79e7e01569cc1778c058a2"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_StreamCameraIcon_Dark.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.753618,
+    "seen": 1791815776.1116967,
+    "ast_hash": "d3cd009f18613d7d707960b210f34b08",
+    "semantic_hash": "d3cd009f18613d7d707960b210f34b08"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_StreamCameraIcon_HC.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.7546175,
+    "seen": 1791815776.1116967,
+    "ast_hash": "6f364ef0c8b80529ba8f33ffd8f8ee46",
+    "semantic_hash": "6f364ef0c8b80529ba8f33ffd8f8ee46"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_StreamCameraIcon_Light.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.7556186,
+    "seen": 1791815776.1116967,
+    "ast_hash": "720cd85deccabb3b431e28f68ad8a671",
+    "semantic_hash": "720cd85deccabb3b431e28f68ad8a671"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_activity_hub_dark.png/0.0.10/metadata.json": {
+    "mtime": 1790718766.756618,
+    "seen": 1791815776.1116967,
+    "ast_hash": "f633aa4105fda2ac934db5836b94978d",
+    "semantic_hash": "f633aa4105fda2ac934db5836b94978d"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_activity_hub_hc.png/0.0.10/metadata.json": {
+    "mtime": 1790718766.757617,
+    "seen": 1791815776.1116967,
+    "ast_hash": "1269e7ff817e15ffd3bf676da705070b",
+    "semantic_hash": "1269e7ff817e15ffd3bf676da705070b"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_activity_hub_light.png/0.0.10/metadata.json": {
+    "mtime": 1790718766.7586174,
+    "seen": 1791815776.1116967,
+    "ast_hash": "ed65965b822e0c30869cb9e6c159bb7d",
+    "semantic_hash": "ed65965b822e0c30869cb9e6c159bb7d"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_amazon_music_dark.png/0.0.1/metadata.json": {
+    "mtime": 1790718766.7586174,
+    "seen": 1791815776.1116967,
+    "ast_hash": "f00bd74ae202c8d848566e06bd72623f",
+    "semantic_hash": "f00bd74ae202c8d848566e06bd72623f"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_amazon_music_hc.png/0.0.1/metadata.json": {
+    "mtime": 1790718766.7596173,
+    "seen": 1791815776.1116967,
+    "ast_hash": "de02abd321fac2e3983e2fbb8d77cec8",
+    "semantic_hash": "de02abd321fac2e3983e2fbb8d77cec8"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_amazon_music_light.png/0.0.1/metadata.json": {
+    "mtime": 1790718766.7606168,
+    "seen": 1791815776.1116967,
+    "ast_hash": "6bf8dfcc730aefe0b5f847718b96df58",
+    "semantic_hash": "6bf8dfcc730aefe0b5f847718b96df58"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_amazon_music_light.png/1.4.13/metadata.json": {
+    "mtime": 1790718766.7606168,
+    "seen": 1791815776.1116967,
+    "ast_hash": "928cfb07b44ded613b0548f551df0121",
+    "semantic_hash": "928cfb07b44ded613b0548f551df0121"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_apple_music.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.7616181,
+    "seen": 1791815776.1116967,
+    "ast_hash": "7e4ba2b831879614bcaa1f84b21f2a7f",
+    "semantic_hash": "7e4ba2b831879614bcaa1f84b21f2a7f"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_apple_music.png/1.4.12/metadata.json": {
+    "mtime": 1790718766.762618,
+    "seen": 1791815776.1116967,
+    "ast_hash": "a7ea53eaf4974315d048e6619cf4b0a1",
+    "semantic_hash": "a7ea53eaf4974315d048e6619cf4b0a1"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_apple_music_hc.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.7636192,
+    "seen": 1791815776.1116967,
+    "ast_hash": "93b9338ab9aa331bb429767fe1b17593",
+    "semantic_hash": "93b9338ab9aa331bb429767fe1b17593"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_chatB_active_dark.png/1.6.8/metadata.json": {
+    "mtime": 1790718766.7646198,
+    "seen": 1791815776.1116967,
+    "ast_hash": "2f4102eb9e9354b799823c9b7f5a40ce",
+    "semantic_hash": "2f4102eb9e9354b799823c9b7f5a40ce"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_chatB_active_light.png/1.6.8/metadata.json": {
+    "mtime": 1790718766.7656207,
+    "seen": 1791815776.1116967,
+    "ast_hash": "fcb63f465fb49f75ba87ae9278b7c612",
+    "semantic_hash": "fcb63f465fb49f75ba87ae9278b7c612"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_chatB_hc.png/1.6.8/metadata.json": {
+    "mtime": 1790718766.7686188,
+    "seen": 1791815776.1116967,
+    "ast_hash": "42e3132a88398d08b73d6422a6a3dbce",
+    "semantic_hash": "42e3132a88398d08b73d6422a6a3dbce"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_compose_hc.png/1.0.2/metadata.json": {
+    "mtime": 1790718766.7706184,
+    "seen": 1791815776.1116967,
+    "ast_hash": "89f69f486edfbb3e047c94289355f4f5",
+    "semantic_hash": "89f69f486edfbb3e047c94289355f4f5"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_compose_maximal_dark.png/1.0.2/metadata.json": {
+    "mtime": 1790718766.7726185,
+    "seen": 1791815776.1116967,
+    "ast_hash": "e9769e8590011f78b176325678ffcba8",
+    "semantic_hash": "e9769e8590011f78b176325678ffcba8"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_compose_maximal_light.png/1.0.2/metadata.json": {
+    "mtime": 1790718766.774618,
+    "seen": 1791815776.1116967,
+    "ast_hash": "3f22c1a6db36d71bd015f082006841d7",
+    "semantic_hash": "3f22c1a6db36d71bd015f082006841d7"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_controller_hc.png/1.0.11/metadata.json": {
+    "mtime": 1790718766.7766178,
+    "seen": 1791815776.1116967,
+    "ast_hash": "05bd4a83b638a9133719aa0c6661f4f3",
+    "semantic_hash": "05bd4a83b638a9133719aa0c6661f4f3"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_controller_maximal_dark.png/1.0.11/metadata.json": {
+    "mtime": 1790718766.7786179,
+    "seen": 1791815776.1116967,
+    "ast_hash": "256c7e08c56b1d663ee998df95d428a5",
+    "semantic_hash": "256c7e08c56b1d663ee998df95d428a5"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_controller_maximal_light.png/1.0.11/metadata.json": {
+    "mtime": 1790718766.7796178,
+    "seen": 1791815776.1116967,
+    "ast_hash": "b51e40c1834558ab844cb7f97443aa96",
+    "semantic_hash": "b51e40c1834558ab844cb7f97443aa96"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_copilot_hc.png/1.3.26/metadata.json": {
+    "mtime": 1790718766.7816176,
+    "seen": 1791815776.1116967,
+    "ast_hash": "f9747a7fc1b9a4af5f4bab0b27cc5e1e",
+    "semantic_hash": "f9747a7fc1b9a4af5f4bab0b27cc5e1e"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_copilot_rainbow.png/1.3.26/metadata.json": {
+    "mtime": 1790718766.7826176,
+    "seen": 1791815776.1116967,
+    "ast_hash": "1621470bc07eac20ce647bafe0953771",
+    "semantic_hash": "1621470bc07eac20ce647bafe0953771"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_designer_color.png/0.0.1/metadata.json": {
+    "mtime": 1790718766.7836168,
+    "seen": 1791815776.1116967,
+    "ast_hash": "7d2d87a6df9a1d4dd3e3707fbed0e90d",
+    "semantic_hash": "7d2d87a6df9a1d4dd3e3707fbed0e90d"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_designer_color.png/1.0.27/metadata.json": {
+    "mtime": 1790718766.7846172,
+    "seen": 1791815776.1116967,
+    "ast_hash": "2ed743a731b71c6280c21508911204ae",
+    "semantic_hash": "2ed743a731b71c6280c21508911204ae"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_designer_hc.png/0.0.1/metadata.json": {
+    "mtime": 1790718766.7846172,
+    "seen": 1791815776.1116967,
+    "ast_hash": "c8c64b04a010fe9762d56e487bc6388f",
+    "semantic_hash": "c8c64b04a010fe9762d56e487bc6388f"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_designer_hc.png/1.0.27/metadata.json": {
+    "mtime": 1790718766.785617,
+    "seen": 1791815776.1116967,
+    "ast_hash": "50854f4f0c9e8e713db22d8728e0b9fe",
+    "semantic_hash": "50854f4f0c9e8e713db22d8728e0b9fe"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_discover_maximal_color_dark.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.7866168,
+    "seen": 1791815776.1116967,
+    "ast_hash": "124278305e779305b8012445f33c7e9c",
+    "semantic_hash": "124278305e779305b8012445f33c7e9c"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_discover_maximal_color_light.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.7876158,
+    "seen": 1791815776.1116967,
+    "ast_hash": "f323beed0f3d9070e878dd44ef07a152",
+    "semantic_hash": "f323beed0f3d9070e878dd44ef07a152"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_discover_maximal_monoline_light.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.7886171,
+    "seen": 1791815776.1116967,
+    "ast_hash": "236e3c0b53adacfb6e02af12f598c911",
+    "semantic_hash": "236e3c0b53adacfb6e02af12f598c911"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_edrop_hc.png/1.1.18/metadata.json": {
+    "mtime": 1790718766.7896187,
+    "seen": 1791815776.1116967,
+    "ast_hash": "42039065d913409124dc09c17e62cd69",
+    "semantic_hash": "42039065d913409124dc09c17e62cd69"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_edrop_maximal_dark.png/1.1.18/metadata.json": {
+    "mtime": 1790718766.7906194,
+    "seen": 1791815776.1116967,
+    "ast_hash": "35122ba5a0b955b325036f52f175cbd7",
+    "semantic_hash": "35122ba5a0b955b325036f52f175cbd7"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_edrop_maximal_light.png/1.1.18/metadata.json": {
+    "mtime": 1790718766.7916179,
+    "seen": 1791815776.1116967,
+    "ast_hash": "a2f5cc0844db202706494abfbc1d796e",
+    "semantic_hash": "a2f5cc0844db202706494abfbc1d796e"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_etree_hc.png/1.2.3/metadata.json": {
+    "mtime": 1790718766.7926185,
+    "seen": 1791815776.1116967,
+    "ast_hash": "5e950d2ecce3e6235d20dbe11ad9cc1c",
+    "semantic_hash": "5e950d2ecce3e6235d20dbe11ad9cc1c"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_etree_maximal_dark.png/1.2.3/metadata.json": {
+    "mtime": 1790718766.7936172,
+    "seen": 1791815776.1116967,
+    "ast_hash": "c63cd8b2eb2e6ba2af9fde1978d5bbb8",
+    "semantic_hash": "c63cd8b2eb2e6ba2af9fde1978d5bbb8"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_etree_maximal_light.png/1.2.3/metadata.json": {
+    "mtime": 1790718766.794618,
+    "seen": 1791815776.1116967,
+    "ast_hash": "909a5c470ea4a49c7fb29c3fcebb12d8",
+    "semantic_hash": "909a5c470ea4a49c7fb29c3fcebb12d8"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_excel.png/1.7.43/metadata.json": {
+    "mtime": 1790718766.7956233,
+    "seen": 1791815776.1116967,
+    "ast_hash": "8d0e25ae54ad15392834cc725a19e4e5",
+    "semantic_hash": "8d0e25ae54ad15392834cc725a19e4e5"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_facebook_messenger.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.7956233,
+    "seen": 1791815776.1116967,
+    "ast_hash": "5f6862e22e29dd90d9eea55bc64ecf9b",
+    "semantic_hash": "5f6862e22e29dd90d9eea55bc64ecf9b"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_facebook_messenger.png/1.5.15/metadata.json": {
+    "mtime": 1790718766.7966235,
+    "seen": 1791815776.1116967,
+    "ast_hash": "7260521afc9e85f45cf61ff3fc852087",
+    "semantic_hash": "7260521afc9e85f45cf61ff3fc852087"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_facebook_messenger_hc.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.7976234,
+    "seen": 1791815776.1116967,
+    "ast_hash": "4aedef00605194948f71bc84e74e0b13",
+    "semantic_hash": "4aedef00605194948f71bc84e74e0b13"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_fluent_discover_hc.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.798625,
+    "seen": 1791815776.1116967,
+    "ast_hash": "7755e390f58fcb5fd2ff51465b99e2ec",
+    "semantic_hash": "7755e390f58fcb5fd2ff51465b99e2ec"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_fluent_edrop_hc.png/0.0.5/metadata.json": {
+    "mtime": 1790718766.8006244,
+    "seen": 1791815776.1116967,
+    "ast_hash": "1c6e59de6f84d038f981b2f570ecb6b5",
+    "semantic_hash": "1c6e59de6f84d038f981b2f570ecb6b5"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_fluent_games_hc.png/0.0.13/metadata.json": {
+    "mtime": 1790718766.8026254,
+    "seen": 1791815776.1116967,
+    "ast_hash": "43f076e415a7745f5e2b81da7a38f055",
+    "semantic_hash": "43f076e415a7745f5e2b81da7a38f055"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_fluent_office_hc.png/0.0.11/metadata.json": {
+    "mtime": 1790718766.804626,
+    "seen": 1791815776.1116967,
+    "ast_hash": "25afceb1099cf13c31026286a19514ee",
+    "semantic_hash": "25afceb1099cf13c31026286a19514ee"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_fluent_office_hc.png/1.7.43/metadata.json": {
+    "mtime": 1790718766.8056262,
+    "seen": 1791815776.1116967,
+    "ast_hash": "cc9861703b76fddada8954ab9c6fccc2",
+    "semantic_hash": "cc9861703b76fddada8954ab9c6fccc2"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_fluent_onenote_hc.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.8066244,
+    "seen": 1791815776.1116967,
+    "ast_hash": "3a2dcf23f956dfd8e4a518696dc56aea",
+    "semantic_hash": "3a2dcf23f956dfd8e4a518696dc56aea"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_fluent_outlook_hc.png/0.0.12/metadata.json": {
+    "mtime": 1790718766.8076234,
+    "seen": 1791815776.1116967,
+    "ast_hash": "85e42049a443bf1a4bc1f81bbb773c76",
+    "semantic_hash": "85e42049a443bf1a4bc1f81bbb773c76"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_fluent_search_hc.png/0.0.7/metadata.json": {
+    "mtime": 1790718766.808624,
+    "seen": 1791815776.1116967,
+    "ast_hash": "5411fd7fe93d43431f171b679837a267",
+    "semantic_hash": "5411fd7fe93d43431f171b679837a267"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_fluent_shopping_hc.png/0.0.7/metadata.json": {
+    "mtime": 1790718766.808624,
+    "seen": 1791815776.1116967,
+    "ast_hash": "d69549b7b18d901a5de33fbe76c0a192",
+    "semantic_hash": "d69549b7b18d901a5de33fbe76c0a192"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_fluent_teams_hc.png/0.0.2/metadata.json": {
+    "mtime": 1790718766.8101306,
+    "seen": 1791815776.1116967,
+    "ast_hash": "a5e998e4bdc81f27d86bf26429be4c13",
+    "semantic_hash": "a5e998e4bdc81f27d86bf26429be4c13"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_fluent_toolbox_hc.png/0.0.7/metadata.json": {
+    "mtime": 1790718766.8101306,
+    "seen": 1791815776.1116967,
+    "ast_hash": "e5928ec20c8931bec8b80bfa1a1e86d9",
+    "semantic_hash": "e5928ec20c8931bec8b80bfa1a1e86d9"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_games_hc.png/1.7.18/metadata.json": {
+    "mtime": 1790718766.811138,
+    "seen": 1791815776.1116967,
+    "ast_hash": "6ff4089831eac23b1ebe4500419f8699",
+    "semantic_hash": "6ff4089831eac23b1ebe4500419f8699"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_games_hc_card.png/1.7.18/metadata.json": {
+    "mtime": 1790718766.8121367,
+    "seen": 1791815776.1116967,
+    "ast_hash": "2bd7b568dc1075535fd49c268e6f490d",
+    "semantic_hash": "2bd7b568dc1075535fd49c268e6f490d"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_games_hc_controller.png/1.7.18/metadata.json": {
+    "mtime": 1790718766.8131385,
+    "seen": 1791815776.1116967,
+    "ast_hash": "d92db65cf77d8e4cfca5de844b5c89bf",
+    "semantic_hash": "d92db65cf77d8e4cfca5de844b5c89bf"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_games_hc_joystick.png/1.7.18/metadata.json": {
+    "mtime": 1790718766.814142,
+    "seen": 1791815776.1116967,
+    "ast_hash": "8182992a4776fd7392537b3b0c945ab6",
+    "semantic_hash": "8182992a4776fd7392537b3b0c945ab6"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_games_hc_puzzle.png/1.7.18/metadata.json": {
+    "mtime": 1790718766.814142,
+    "seen": 1791815776.1116967,
+    "ast_hash": "ae10f5b57aaf55db49a4d3b1eddeebd1",
+    "semantic_hash": "ae10f5b57aaf55db49a4d3b1eddeebd1"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_games_maximal_dark.png/1.7.18/metadata.json": {
+    "mtime": 1790718766.8151371,
+    "seen": 1791815776.1116967,
+    "ast_hash": "8a2a4dead1e240ac17b5c06055a70711",
+    "semantic_hash": "8a2a4dead1e240ac17b5c06055a70711"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_games_maximal_dark_card.png/1.7.18/metadata.json": {
+    "mtime": 1790718766.8161356,
+    "seen": 1791815776.1116967,
+    "ast_hash": "99ec9e16ae0ba1c949c52b3e1e79e0db",
+    "semantic_hash": "99ec9e16ae0ba1c949c52b3e1e79e0db"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_games_maximal_dark_controller.png/1.7.18/metadata.json": {
+    "mtime": 1790718766.8171368,
+    "seen": 1791815776.1116967,
+    "ast_hash": "33ad4be0fd0c7ae9466e853d114fbfdd",
+    "semantic_hash": "33ad4be0fd0c7ae9466e853d114fbfdd"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_games_maximal_dark_joystick.png/1.7.18/metadata.json": {
+    "mtime": 1790718766.8171368,
+    "seen": 1791815776.1116967,
+    "ast_hash": "48620b274ada211db0f8ffeaaf9534cb",
+    "semantic_hash": "48620b274ada211db0f8ffeaaf9534cb"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_games_maximal_dark_puzzle.png/1.7.18/metadata.json": {
+    "mtime": 1790718766.8181372,
+    "seen": 1791815776.1116967,
+    "ast_hash": "16637c2f3a6b465000435661bc9fb1bf",
+    "semantic_hash": "16637c2f3a6b465000435661bc9fb1bf"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_games_maximal_light.png/1.7.18/metadata.json": {
+    "mtime": 1790718766.8191357,
+    "seen": 1791815776.1116967,
+    "ast_hash": "f6e816c15d8b325eba5961a94497a387",
+    "semantic_hash": "f6e816c15d8b325eba5961a94497a387"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_games_maximal_light_card.png/1.7.18/metadata.json": {
+    "mtime": 1790718766.8191357,
+    "seen": 1791815776.1116967,
+    "ast_hash": "fe8fd579091d003809ce35a2d32e0fb4",
+    "semantic_hash": "fe8fd579091d003809ce35a2d32e0fb4"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_games_maximal_light_controller.png/1.7.18/metadata.json": {
+    "mtime": 1790718766.8201354,
+    "seen": 1791815776.1116967,
+    "ast_hash": "0d895e91392c4e2ef20ddfc40231cb01",
+    "semantic_hash": "0d895e91392c4e2ef20ddfc40231cb01"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_games_maximal_light_joystick.png/1.7.18/metadata.json": {
+    "mtime": 1790718766.8211355,
+    "seen": 1791815776.1116967,
+    "ast_hash": "93b51f2be44fc977bff5b46658ca8a3f",
+    "semantic_hash": "93b51f2be44fc977bff5b46658ca8a3f"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_games_maximal_light_puzzle.png/1.7.18/metadata.json": {
+    "mtime": 1790718766.822137,
+    "seen": 1791815776.1116967,
+    "ast_hash": "fa73d9e0677225294dddd8c30bf9e8c7",
+    "semantic_hash": "fa73d9e0677225294dddd8c30bf9e8c7"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_gmail.png/0.0.7/metadata.json": {
+    "mtime": 1790718766.823137,
+    "seen": 1791815776.1116967,
+    "ast_hash": "e34e1d55717ed128158e225a1d866c59",
+    "semantic_hash": "e34e1d55717ed128158e225a1d866c59"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_gmail.png/1.5.4/metadata.json": {
+    "mtime": 1790718766.823137,
+    "seen": 1791815776.1116967,
+    "ast_hash": "77a4e117d3cc6ed67b33f7e28c5b1a34",
+    "semantic_hash": "77a4e117d3cc6ed67b33f7e28c5b1a34"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_gmail_hc.png/0.0.7/metadata.json": {
+    "mtime": 1790718766.824136,
+    "seen": 1791815776.1116967,
+    "ast_hash": "f8833fe16691fae69fd199d08d0f0152",
+    "semantic_hash": "f8833fe16691fae69fd199d08d0f0152"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_help.png/1.0.1/metadata.json": {
+    "mtime": 1790718766.8251364,
+    "seen": 1791815776.1116967,
+    "ast_hash": "40c3c1c6fa511f3eda7002be3f47bbd9",
+    "semantic_hash": "40c3c1c6fa511f3eda7002be3f47bbd9"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_iHeart.png/1.0.3/metadata.json": {
+    "mtime": 1790718766.8251364,
+    "seen": 1791815776.1116967,
+    "ast_hash": "3436b49a216b80556d078353b72d5ae5",
+    "semantic_hash": "3436b49a216b80556d078353b72d5ae5"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_instagram.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.8261402,
+    "seen": 1791815776.1116967,
+    "ast_hash": "914ed92593ea09649da0f2c7a219073e",
+    "semantic_hash": "914ed92593ea09649da0f2c7a219073e"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_instagram.png/1.4.13/metadata.json": {
+    "mtime": 1790718766.8271413,
+    "seen": 1791815776.1116967,
+    "ast_hash": "fe299d8b97f8e4be404facf747e3ea3c",
+    "semantic_hash": "fe299d8b97f8e4be404facf747e3ea3c"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_instagram_hc.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.8281407,
+    "seen": 1791815776.1116967,
+    "ast_hash": "a2db37deb4b9312e1a0ff14ea6d714f6",
+    "semantic_hash": "a2db37deb4b9312e1a0ff14ea6d714f6"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_manifest_gz/4.11.81/metadata.json": {
+    "mtime": 1790718766.8321426,
+    "seen": 1791815776.1116967,
+    "ast_hash": "156d88ab0d909e1624b1d3a4db0fb823",
+    "semantic_hash": "156d88ab0d909e1624b1d3a4db0fb823"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_discover_dark.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.833141,
+    "seen": 1791815776.1116967,
+    "ast_hash": "32ecd9fe27d92d7337e60ee6f2519028",
+    "semantic_hash": "32ecd9fe27d92d7337e60ee6f2519028"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_discover_hc.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.834141,
+    "seen": 1791815776.1116967,
+    "ast_hash": "2212c7b040d61f7673b1a58aef00d6f4",
+    "semantic_hash": "2212c7b040d61f7673b1a58aef00d6f4"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_discover_light.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.8351421,
+    "seen": 1791815776.1116967,
+    "ast_hash": "b8b66c482cbfd5506a37797482deadaa",
+    "semantic_hash": "b8b66c482cbfd5506a37797482deadaa"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_edrop_dark.png/0.0.5/metadata.json": {
+    "mtime": 1790718766.8351421,
+    "seen": 1791815776.1116967,
+    "ast_hash": "8a35ab03e6bac6258752818e981b2a5c",
+    "semantic_hash": "8a35ab03e6bac6258752818e981b2a5c"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_edrop_hc.png/0.0.5/metadata.json": {
+    "mtime": 1790718766.8361409,
+    "seen": 1791815776.1116967,
+    "ast_hash": "902005a7dde949e1454b25df4fc2e351",
+    "semantic_hash": "902005a7dde949e1454b25df4fc2e351"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_edrop_light.png/0.0.5/metadata.json": {
+    "mtime": 1790718766.8371408,
+    "seen": 1791815776.1116967,
+    "ast_hash": "0ab46f41c326731b32068071ecf27c8e",
+    "semantic_hash": "0ab46f41c326731b32068071ecf27c8e"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_etree_dark.png/0.0.9/metadata.json": {
+    "mtime": 1790718766.8381414,
+    "seen": 1791815776.1116967,
+    "ast_hash": "bb49b49eef6b1fe2fe30950fd670fd30",
+    "semantic_hash": "bb49b49eef6b1fe2fe30950fd670fd30"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_etree_hc.png/0.0.9/metadata.json": {
+    "mtime": 1790718766.8381414,
+    "seen": 1791815776.1116967,
+    "ast_hash": "7f80be98516847f3791bb3af0380b105",
+    "semantic_hash": "7f80be98516847f3791bb3af0380b105"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_etree_light.png/0.0.9/metadata.json": {
+    "mtime": 1790718766.8391414,
+    "seen": 1791815776.1116967,
+    "ast_hash": "8bf7d0f9500317b62b85e4d5880a35b8",
+    "semantic_hash": "8bf7d0f9500317b62b85e4d5880a35b8"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_follow_dark.png/1.1.2/metadata.json": {
+    "mtime": 1790718766.8401418,
+    "seen": 1791815776.1116967,
+    "ast_hash": "31ff677b8fb9c971f637210cddaa6fe9",
+    "semantic_hash": "31ff677b8fb9c971f637210cddaa6fe9"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_follow_hc.png/1.1.2/metadata.json": {
+    "mtime": 1790718766.8411407,
+    "seen": 1791815776.1116967,
+    "ast_hash": "8ed57cbb59af8fb1b5c6c134ea91c85d",
+    "semantic_hash": "8ed57cbb59af8fb1b5c6c134ea91c85d"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_follow_light.png/1.1.2/metadata.json": {
+    "mtime": 1790718766.8411407,
+    "seen": 1791815776.1116967,
+    "ast_hash": "043676078c7d72fce08e5962b446a08b",
+    "semantic_hash": "043676078c7d72fce08e5962b446a08b"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_games_dark.png/0.0.13/metadata.json": {
+    "mtime": 1790718766.8422186,
+    "seen": 1791815776.1116967,
+    "ast_hash": "cbff85f1d27e1e23c4ce57d1d1274440",
+    "semantic_hash": "cbff85f1d27e1e23c4ce57d1d1274440"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_games_hc.png/0.0.13/metadata.json": {
+    "mtime": 1790718766.8432176,
+    "seen": 1791815776.1116967,
+    "ast_hash": "89891277b576e058020379f46e9c6907",
+    "semantic_hash": "89891277b576e058020379f46e9c6907"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_games_light.png/0.0.13/metadata.json": {
+    "mtime": 1790718766.8432176,
+    "seen": 1791815776.1116967,
+    "ast_hash": "cef22d77d9a07b9d0b8f5c67d6688195",
+    "semantic_hash": "cef22d77d9a07b9d0b8f5c67d6688195"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_search_dark.png/0.0.7/metadata.json": {
+    "mtime": 1790718766.8442187,
+    "seen": 1791815776.1116967,
+    "ast_hash": "975576271d36d22dfd14879cf13bcfab",
+    "semantic_hash": "975576271d36d22dfd14879cf13bcfab"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_search_hc.png/0.0.7/metadata.json": {
+    "mtime": 1790718766.8453157,
+    "seen": 1791815776.1116967,
+    "ast_hash": "91a1034e34d7ff8d1c417c34138c66d5",
+    "semantic_hash": "91a1034e34d7ff8d1c417c34138c66d5"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_search_light.png/0.0.7/metadata.json": {
+    "mtime": 1790718766.8458207,
+    "seen": 1791815776.1116967,
+    "ast_hash": "753f6d55dff040085f85ef679cefeb17",
+    "semantic_hash": "753f6d55dff040085f85ef679cefeb17"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_shopping_dark.png/0.0.7/metadata.json": {
+    "mtime": 1790718766.846825,
+    "seen": 1791815776.1116967,
+    "ast_hash": "56a2ce04fea3109c6304b2448f72298b",
+    "semantic_hash": "56a2ce04fea3109c6304b2448f72298b"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_shopping_hc.png/0.0.7/metadata.json": {
+    "mtime": 1790718766.8478262,
+    "seen": 1791815776.1116967,
+    "ast_hash": "ec8d1e639e6658a9ac0a64c95f5e7724",
+    "semantic_hash": "ec8d1e639e6658a9ac0a64c95f5e7724"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_shopping_light.png/0.0.7/metadata.json": {
+    "mtime": 1790718766.8478262,
+    "seen": 1791815776.1116967,
+    "ast_hash": "8f617fb371b5839a3b6c97c6121c9bda",
+    "semantic_hash": "8f617fb371b5839a3b6c97c6121c9bda"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_toolbox_dark.png/0.0.7/metadata.json": {
+    "mtime": 1790718766.848826,
+    "seen": 1791815776.1116967,
+    "ast_hash": "1690781583c09969b6d9ba9901da750b",
+    "semantic_hash": "1690781583c09969b6d9ba9901da750b"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_toolbox_hc.png/0.0.7/metadata.json": {
+    "mtime": 1790718766.849826,
+    "seen": 1791815776.1116967,
+    "ast_hash": "dfbd2ab5c34beb618040a23f296ee249",
+    "semantic_hash": "dfbd2ab5c34beb618040a23f296ee249"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_maximal_toolbox_light.png/0.0.7/metadata.json": {
+    "mtime": 1790718766.8508255,
+    "seen": 1791815776.1116967,
+    "ast_hash": "2c226cb10460c840052bcdab7f6c9aa2",
+    "semantic_hash": "2c226cb10460c840052bcdab7f6c9aa2"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_msstart_logo_dark.png/1.2.17/metadata.json": {
+    "mtime": 1790718766.8508255,
+    "seen": 1791815776.1116967,
+    "ast_hash": "a79dc2d67626229b9a905994aaddee15",
+    "semantic_hash": "a79dc2d67626229b9a905994aaddee15"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_msstart_logo_light.png/1.2.17/metadata.json": {
+    "mtime": 1790718766.851825,
+    "seen": 1791815776.1116967,
+    "ast_hash": "692fdaa94f8b17f2e1bb5e3052fe2cfb",
+    "semantic_hash": "692fdaa94f8b17f2e1bb5e3052fe2cfb"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_mstravel_logo_dark.png/1.0.0/metadata.json": {
+    "mtime": 1790718766.8528247,
+    "seen": 1791815776.1116967,
+    "ast_hash": "34a6e04d86ab257e12afb3e5b43b3401",
+    "semantic_hash": "34a6e04d86ab257e12afb3e5b43b3401"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_mstravel_logo_hc.png/1.0.0/metadata.json": {
+    "mtime": 1790718766.8528247,
+    "seen": 1791815776.1116967,
+    "ast_hash": "89748313e5368ed97b80c3e35df9fc97",
+    "semantic_hash": "89748313e5368ed97b80c3e35df9fc97"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_mstravel_logo_light.png/1.0.0/metadata.json": {
+    "mtime": 1790718766.8538246,
+    "seen": 1791815776.1116967,
+    "ast_hash": "242f224f1bb5f7635311bd70d8a1d89d",
+    "semantic_hash": "242f224f1bb5f7635311bd70d8a1d89d"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_office.png/0.0.11/metadata.json": {
+    "mtime": 1790718766.8548245,
+    "seen": 1791815776.1116967,
+    "ast_hash": "12b0b531f65652fc9d6a31983f843936",
+    "semantic_hash": "12b0b531f65652fc9d6a31983f843936"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_office.png/1.7.43/metadata.json": {
+    "mtime": 1790718766.8548245,
+    "seen": 1791815776.1116967,
+    "ast_hash": "77ab4f6000b92392bfe83e38abb7b5df",
+    "semantic_hash": "77ab4f6000b92392bfe83e38abb7b5df"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_onenote.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.8558252,
+    "seen": 1791815776.1116967,
+    "ast_hash": "23429e0e23732a3f4cb18ff518d719b9",
+    "semantic_hash": "23429e0e23732a3f4cb18ff518d719b9"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_onenote_dark.png/1.4.13/metadata.json": {
+    "mtime": 1790718766.8568256,
+    "seen": 1791815776.1116967,
+    "ast_hash": "fff5a2e22f977e894fa6b84edb34d661",
+    "semantic_hash": "fff5a2e22f977e894fa6b84edb34d661"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_onenote_hc.png/1.4.13/metadata.json": {
+    "mtime": 1790718766.8598256,
+    "seen": 1791815776.1116967,
+    "ast_hash": "9b4f6cb0cd8f99a8af1d6d036836ed44",
+    "semantic_hash": "9b4f6cb0cd8f99a8af1d6d036836ed44"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_onenote_light.png/1.4.13/metadata.json": {
+    "mtime": 1790718766.8610563,
+    "seen": 1791815776.1116967,
+    "ast_hash": "4bbc59cb6c75db1fb2d7fcacca280983",
+    "semantic_hash": "4bbc59cb6c75db1fb2d7fcacca280983"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_outlook.png/0.0.12/metadata.json": {
+    "mtime": 1790718766.8618264,
+    "seen": 1791815776.1116967,
+    "ast_hash": "5464a58ff0aa965e3d8c4c0127f73c88",
+    "semantic_hash": "5464a58ff0aa965e3d8c4c0127f73c88"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_outlook_dark.png/1.12.17/metadata.json": {
+    "mtime": 1790718766.8618264,
+    "seen": 1791815776.1116967,
+    "ast_hash": "049d18cbe6cebb61a0dfad8d3f132029",
+    "semantic_hash": "049d18cbe6cebb61a0dfad8d3f132029"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_outlook_hc.png/1.12.17/metadata.json": {
+    "mtime": 1790718766.8633325,
+    "seen": 1791815776.1116967,
+    "ast_hash": "4796c57bc8740ca2d73b322d57383c6d",
+    "semantic_hash": "4796c57bc8740ca2d73b322d57383c6d"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_outlook_light.png/1.12.17/metadata.json": {
+    "mtime": 1790718766.864339,
+    "seen": 1791815776.1116967,
+    "ast_hash": "7ca917ba14ab49b73d14cb290ed8473c",
+    "semantic_hash": "7ca917ba14ab49b73d14cb290ed8473c"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_performance_dark.png/0.0.4/metadata.json": {
+    "mtime": 1790718766.8653395,
+    "seen": 1791815776.1116967,
+    "ast_hash": "8a5bf7fe2edc1acad205170b946f4629",
+    "semantic_hash": "8a5bf7fe2edc1acad205170b946f4629"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_performance_hc.png/0.0.4/metadata.json": {
+    "mtime": 1790718766.8653395,
+    "seen": 1791815776.1116967,
+    "ast_hash": "0ea2a488f176b66a7cc2dff5b4b4767f",
+    "semantic_hash": "0ea2a488f176b66a7cc2dff5b4b4767f"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_performance_hc.png/1.1.3/metadata.json": {
+    "mtime": 1790718766.8663394,
+    "seen": 1791815776.1116967,
+    "ast_hash": "011f676a2a4af6b0422ea04f7f7dc282",
+    "semantic_hash": "011f676a2a4af6b0422ea04f7f7dc282"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_performance_light.png/0.0.4/metadata.json": {
+    "mtime": 1790718766.8673377,
+    "seen": 1791815776.1116967,
+    "ast_hash": "c34a3ac96e11d80c626ab90e267a48d3",
+    "semantic_hash": "c34a3ac96e11d80c626ab90e267a48d3"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_performance_maximal_dark.png/1.1.3/metadata.json": {
+    "mtime": 1790718766.8683388,
+    "seen": 1791815776.1116967,
+    "ast_hash": "03f6b460bc489fe5188b6bc91efe70b1",
+    "semantic_hash": "03f6b460bc489fe5188b6bc91efe70b1"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_performance_maximal_light.png/1.1.3/metadata.json": {
+    "mtime": 1790718766.8683388,
+    "seen": 1791815776.1116967,
+    "ast_hash": "039fd522543a77d4d5be7b1ddf64dd73",
+    "semantic_hash": "039fd522543a77d4d5be7b1ddf64dd73"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_power_point.png/1.7.43/metadata.json": {
+    "mtime": 1790718766.869339,
+    "seen": 1791815776.1116967,
+    "ast_hash": "70370c8fb9b954ec122e76573ff89a47",
+    "semantic_hash": "70370c8fb9b954ec122e76573ff89a47"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_rewards_hc.png/1.2.1/metadata.json": {
+    "mtime": 1790718766.870339,
+    "seen": 1791815776.1116967,
+    "ast_hash": "81b71a66f82850da22aef9acb121852c",
+    "semantic_hash": "81b71a66f82850da22aef9acb121852c"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_rewards_maximal_dark.png/1.2.1/metadata.json": {
+    "mtime": 1790718766.8713388,
+    "seen": 1791815776.1116967,
+    "ast_hash": "18071831232c261a2527f6f397ca6415",
+    "semantic_hash": "18071831232c261a2527f6f397ca6415"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_rewards_maximal_light.png/1.2.1/metadata.json": {
+    "mtime": 1790718766.8713388,
+    "seen": 1791815776.1116967,
+    "ast_hash": "fbbea94495e4d73974796d70e62d8e2a",
+    "semantic_hash": "fbbea94495e4d73974796d70e62d8e2a"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_search_hc.png/1.3.20/metadata.json": {
+    "mtime": 1790718766.87234,
+    "seen": 1791815776.1116967,
+    "ast_hash": "2976040b87cb58a467896f0d500c9af2",
+    "semantic_hash": "2976040b87cb58a467896f0d500c9af2"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_search_maximal_dark.png/1.3.20/metadata.json": {
+    "mtime": 1790718766.8733394,
+    "seen": 1791815776.1116967,
+    "ast_hash": "5199a48eb36f60ff8100926b273a6108",
+    "semantic_hash": "5199a48eb36f60ff8100926b273a6108"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_search_maximal_light.png/1.3.20/metadata.json": {
+    "mtime": 1790718766.8743393,
+    "seen": 1791815776.1116967,
+    "ast_hash": "fe6167f91617c2987e6b59ffc6b840e7",
+    "semantic_hash": "fe6167f91617c2987e6b59ffc6b840e7"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_settings_dark.png/1.1.18/metadata.json": {
+    "mtime": 1790718766.8753393,
+    "seen": 1791815776.1116967,
+    "ast_hash": "5b5ee75d129c460a6b9caa7445644875",
+    "semantic_hash": "5b5ee75d129c460a6b9caa7445644875"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_settings_dark.png/1.5.18/metadata.json": {
+    "mtime": 1790718766.8753393,
+    "seen": 1791815776.1116967,
+    "ast_hash": "3970a3e1440a3548fb8637c9b51a8e8e",
+    "semantic_hash": "3970a3e1440a3548fb8637c9b51a8e8e"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_settings_dark.png/1.5.7/metadata.json": {
+    "mtime": 1790718766.8763387,
+    "seen": 1791815776.1116967,
+    "ast_hash": "e4db63b861695655d24f5b84dbf27d36",
+    "semantic_hash": "e4db63b861695655d24f5b84dbf27d36"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_settings_hc.png/1.1.18/metadata.json": {
+    "mtime": 1790718766.8764815,
+    "seen": 1791815776.1116967,
+    "ast_hash": "ef2bbe186dc198ec09ab24a4550a732b",
+    "semantic_hash": "ef2bbe186dc198ec09ab24a4550a732b"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_settings_hc.png/1.5.18/metadata.json": {
+    "mtime": 1790718766.877339,
+    "seen": 1791815776.1116967,
+    "ast_hash": "2164384c6071901e66aa77f875e34d13",
+    "semantic_hash": "2164384c6071901e66aa77f875e34d13"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_settings_hc.png/1.5.7/metadata.json": {
+    "mtime": 1790718766.877339,
+    "seen": 1791815776.1116967,
+    "ast_hash": "8f554f000a09d743f6174e4d2557e21b",
+    "semantic_hash": "8f554f000a09d743f6174e4d2557e21b"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_settings_light.png/1.1.18/metadata.json": {
+    "mtime": 1790718766.8792553,
+    "seen": 1791815776.1116967,
+    "ast_hash": "40ea910b4eca2ea8d9cd83446e77fc85",
+    "semantic_hash": "40ea910b4eca2ea8d9cd83446e77fc85"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_settings_light.png/1.5.18/metadata.json": {
+    "mtime": 1790718766.8792553,
+    "seen": 1791815776.1116967,
+    "ast_hash": "2c8de588b4f7ca417c75b91ec60607a5",
+    "semantic_hash": "2c8de588b4f7ca417c75b91ec60607a5"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_settings_light.png/1.5.7/metadata.json": {
+    "mtime": 1790718766.8798497,
+    "seen": 1791815776.1116967,
+    "ast_hash": "982303bfdbda920d31ac7187748eb875",
+    "semantic_hash": "982303bfdbda920d31ac7187748eb875"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_shopping_hc.png/1.5.7/metadata.json": {
+    "mtime": 1790718766.8798497,
+    "seen": 1791815776.1116967,
+    "ast_hash": "5977815bc754357f90cce37e14c351a7",
+    "semantic_hash": "5977815bc754357f90cce37e14c351a7"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_shopping_maximal_dark.png/1.5.7/metadata.json": {
+    "mtime": 1790718766.881354,
+    "seen": 1791815776.1116967,
+    "ast_hash": "2e58100be7ffb587695d5b930339ce65",
+    "semantic_hash": "2e58100be7ffb587695d5b930339ce65"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_shopping_maximal_light.png/1.5.7/metadata.json": {
+    "mtime": 1790718766.8823605,
+    "seen": 1791815776.1116967,
+    "ast_hash": "bb34dac574e628a1f4171dde963b95dc",
+    "semantic_hash": "bb34dac574e628a1f4171dde963b95dc"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_sound_cloud.png/1.0.3/metadata.json": {
+    "mtime": 1790718766.883359,
+    "seen": 1791815776.1116967,
+    "ast_hash": "b935f7d6df1b7b76b12d982debe7beb2",
+    "semantic_hash": "b935f7d6df1b7b76b12d982debe7beb2"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_spotify.png/0.0.6/metadata.json": {
+    "mtime": 1790718766.883359,
+    "seen": 1791815776.1116967,
+    "ast_hash": "ce5dc891be99bde8a5b8e23b8ad9209e",
+    "semantic_hash": "ce5dc891be99bde8a5b8e23b8ad9209e"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_spotify.png/1.4.14/metadata.json": {
+    "mtime": 1790718766.884359,
+    "seen": 1791815776.1116967,
+    "ast_hash": "f2f393fd218df659885f529eee522b86",
+    "semantic_hash": "f2f393fd218df659885f529eee522b86"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_spotify_hc.png/0.0.6/metadata.json": {
+    "mtime": 1790718766.88536,
+    "seen": 1791815776.1116967,
+    "ast_hash": "87b5000b567c61c6ce95e19ef9574f2b",
+    "semantic_hash": "87b5000b567c61c6ce95e19ef9574f2b"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_teams.png/0.0.2/metadata.json": {
+    "mtime": 1790718766.886359,
+    "seen": 1791815776.1116967,
+    "ast_hash": "375296ab7d037458036c0185e035d901",
+    "semantic_hash": "375296ab7d037458036c0185e035d901"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_teams_dark.png/1.5.15/metadata.json": {
+    "mtime": 1790718766.889361,
+    "seen": 1791815776.1116967,
+    "ast_hash": "9fb0b803ef494774ad0d66324e42f48a",
+    "semantic_hash": "9fb0b803ef494774ad0d66324e42f48a"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_teams_hc.png/1.5.15/metadata.json": {
+    "mtime": 1790718766.889361,
+    "seen": 1791815776.1116967,
+    "ast_hash": "953c3348b4c5886553e76b0a4e66f8ff",
+    "semantic_hash": "953c3348b4c5886553e76b0a4e66f8ff"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_teams_light.png/1.5.15/metadata.json": {
+    "mtime": 1790718766.8903615,
+    "seen": 1791815776.1116967,
+    "ast_hash": "3824a8d5c052a9d71f1778d7b0fe52dd",
+    "semantic_hash": "3824a8d5c052a9d71f1778d7b0fe52dd"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_telegram.png/1.0.4/metadata.json": {
+    "mtime": 1790718766.891359,
+    "seen": 1791815776.1116967,
+    "ast_hash": "cde2ee52ba87f37bc3e66482652dcd0d",
+    "semantic_hash": "cde2ee52ba87f37bc3e66482652dcd0d"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_theater_hc.png/1.0.9/metadata.json": {
+    "mtime": 1790718766.892359,
+    "seen": 1791815776.1116967,
+    "ast_hash": "d5c7fa42f75aa26cc70ecb507d8d9c59",
+    "semantic_hash": "d5c7fa42f75aa26cc70ecb507d8d9c59"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_theater_maximal_dark.png/1.0.9/metadata.json": {
+    "mtime": 1790718766.892359,
+    "seen": 1791815776.1116967,
+    "ast_hash": "df936d2a786b50022910aefa0cb6064c",
+    "semantic_hash": "df936d2a786b50022910aefa0cb6064c"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_theater_maximal_light.png/1.0.9/metadata.json": {
+    "mtime": 1790718766.8933582,
+    "seen": 1791815776.1116967,
+    "ast_hash": "a4ff9420416ccf2d4de7ced4e0236a7a",
+    "semantic_hash": "a4ff9420416ccf2d4de7ced4e0236a7a"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_tidal.png/1.0.3/metadata.json": {
+    "mtime": 1790718766.8943594,
+    "seen": 1791815776.1116967,
+    "ast_hash": "1c610438c90ab586abb23a304c9c3d56",
+    "semantic_hash": "1c610438c90ab586abb23a304c9c3d56"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_toolbox_hc.png/1.5.18/metadata.json": {
+    "mtime": 1790718766.895364,
+    "seen": 1791815776.1116967,
+    "ast_hash": "550a0fd0d0aec42fb3b8851355b36f93",
+    "semantic_hash": "550a0fd0d0aec42fb3b8851355b36f93"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_toolbox_maximal_dark.png/1.5.18/metadata.json": {
+    "mtime": 1790718766.896364,
+    "seen": 1791815776.1116967,
+    "ast_hash": "972d183512074ddef27533b30c15dbac",
+    "semantic_hash": "972d183512074ddef27533b30c15dbac"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_toolbox_maximal_light.png/1.5.18/metadata.json": {
+    "mtime": 1790718766.896364,
+    "seen": 1791815776.1116967,
+    "ast_hash": "b0c099e28c5a6e404c0e05d302bc6083",
+    "semantic_hash": "b0c099e28c5a6e404c0e05d302bc6083"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_twitter_light.png/1.0.9/metadata.json": {
+    "mtime": 1790718766.897364,
+    "seen": 1791815776.1116967,
+    "ast_hash": "d348fad3d48bde54afd558af4ef7b9b7",
+    "semantic_hash": "d348fad3d48bde54afd558af4ef7b9b7"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_whats_new.png/1.0.1/metadata.json": {
+    "mtime": 1790718766.8983648,
+    "seen": 1791815776.1116967,
+    "ast_hash": "e824e9e2ff524cf6e47183b9ab3d6544",
+    "semantic_hash": "e824e9e2ff524cf6e47183b9ab3d6544"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_whatsapp.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.8993647,
+    "seen": 1791815776.1116967,
+    "ast_hash": "e448f3e4b4d05a2e2e1b1c9dff4f8096",
+    "semantic_hash": "e448f3e4b4d05a2e2e1b1c9dff4f8096"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_whatsapp_hc.png/0.0.8/metadata.json": {
+    "mtime": 1790718766.8993647,
+    "seen": 1791815776.1116967,
+    "ast_hash": "8a96d2097d9616f0dffb1ce7a267ae2b",
+    "semantic_hash": "8a96d2097d9616f0dffb1ce7a267ae2b"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_whatsapp_light.png/1.4.12/metadata.json": {
+    "mtime": 1790718766.9003646,
+    "seen": 1791815776.1116967,
+    "ast_hash": "e0f8c0d230c4f0573482d3ccfbea3db5",
+    "semantic_hash": "e0f8c0d230c4f0573482d3ccfbea3db5"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_word.png/1.7.43/metadata.json": {
+    "mtime": 1790718766.9013648,
+    "seen": 1791815776.1116967,
+    "ast_hash": "f396031846259359ed5fb41c5a182701",
+    "semantic_hash": "f396031846259359ed5fb41c5a182701"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_wrench.png/1.0.1/metadata.json": {
+    "mtime": 1790718766.9023645,
+    "seen": 1791815776.1116967,
+    "ast_hash": "a4f075136d56ace2200bf90ba09c5375",
+    "semantic_hash": "a4f075136d56ace2200bf90ba09c5375"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_yandex_music.png/1.0.10/metadata.json": {
+    "mtime": 1790718766.9033647,
+    "seen": 1791815776.1116967,
+    "ast_hash": "982768a23fb806c64bd77db764654001",
+    "semantic_hash": "982768a23fb806c64bd77db764654001"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_youtube.png/0.0.4/metadata.json": {
+    "mtime": 1790718766.9043648,
+    "seen": 1791815776.1116967,
+    "ast_hash": "6011d0ceeb50cc5052730cb47e55bda4",
+    "semantic_hash": "6011d0ceeb50cc5052730cb47e55bda4"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_youtube.png/1.4.14/metadata.json": {
+    "mtime": 1790718766.9043648,
+    "seen": 1791815776.1116967,
+    "ast_hash": "56d54d0ade4f57169db304efeac6f9e6",
+    "semantic_hash": "56d54d0ade4f57169db304efeac6f9e6"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/edge_hub_apps_youtube_hc.png/0.0.4/metadata.json": {
+    "mtime": 1790718766.906365,
+    "seen": 1791815776.1116967,
+    "ast_hash": "c9a4c217fd21300a91965ff7191c693a",
+    "semantic_hash": "c9a4c217fd21300a91965ff7191c693a"
+  },
+  ".preview-spacing/Edge Sidebar/2026.2.24.1/manifest.json": {
+    "mtime": 1790718766.906365,
+    "seen": 1791815776.1116967,
+    "ast_hash": "856f9cbd4b7a9fe350d26ddde3dd3e63",
+    "semantic_hash": "856f9cbd4b7a9fe350d26ddde3dd3e63"
+  },
+  ".preview-spacing/EdgeArbitration/2026.5.28.1/arbitration_priority_list/38.0.1/metadata.json": {
+    "mtime": 1790718766.9073653,
+    "seen": 1791815776.1116967,
+    "ast_hash": "48bc0cd7dece5068085033faeee785e7",
+    "semantic_hash": "48bc0cd7dece5068085033faeee785e7"
+  },
+  ".preview-spacing/EdgeArbitration/2026.5.28.1/arbitration_priority_list/39.0.3/metadata.json": {
+    "mtime": 1790718766.908365,
+    "seen": 1791815776.1116967,
+    "ast_hash": "f3483a11fb9a3c52a0830b71ea26b5fe",
+    "semantic_hash": "f3483a11fb9a3c52a0830b71ea26b5fe"
+  },
+  ".preview-spacing/EdgeArbitration/2026.5.28.1/arbitration_priority_list/40.0.2/metadata.json": {
+    "mtime": 1790718766.909364,
+    "seen": 1791815776.1116967,
+    "ast_hash": "c382debecc9ae177ef14d9928bd9cd3f",
+    "semantic_hash": "c382debecc9ae177ef14d9928bd9cd3f"
+  },
+  ".preview-spacing/EdgeArbitration/2026.5.28.1/arbitration_priority_list/41.0.0/metadata.json": {
+    "mtime": 1790718766.9103632,
+    "seen": 1791815776.1116967,
+    "ast_hash": "bda2c3f3ff1e9ecc8cbf72fc1f646d95",
+    "semantic_hash": "bda2c3f3ff1e9ecc8cbf72fc1f646d95"
+  },
+  ".preview-spacing/EdgeArbitration/2026.5.28.1/manifest.json": {
+    "mtime": 1790718766.9103632,
+    "seen": 1791815776.1116967,
+    "ast_hash": "c959000cb980239df2db83645b387ed9",
+    "semantic_hash": "c959000cb980239df2db83645b387ed9"
+  },
+  ".preview-spacing/EdgeLanguageDetectionModel/2026.1.30.1/manifest.json": {
+    "mtime": 1790718766.9108663,
+    "seen": 1791815776.1116967,
+    "ast_hash": "aa42bfced06f0748f8779cbfdfb973e0",
+    "semantic_hash": "aa42bfced06f0748f8779cbfdfb973e0"
+  },
+  ".preview-spacing/component_crx_cache/metadata.json": {
+    "mtime": 1790718767.0173852,
+    "seen": 1791815776.1116967,
+    "ast_hash": "e0875714af49c8d24f012054ed5a091f",
+    "semantic_hash": "e0875714af49c8d24f012054ed5a091f"
+  },
+  ".preview-spacing/extensions_crx_cache/metadata.json": {
+    "mtime": 1790718767.0173852,
+    "seen": 1791815776.1116967,
+    "ast_hash": "2aa9e263ee3796d9ce358460a2451b4c",
+    "semantic_hash": "2aa9e263ee3796d9ce358460a2451b4c"
+  },
+  "about.json": {
+    "mtime": 1790699339.522932,
+    "seen": 1791815776.1116967,
+    "ast_hash": "9398eee9622d037ebcf9fbf1acbed730",
+    "semantic_hash": "9398eee9622d037ebcf9fbf1acbed730"
+  },
+  "contact.json": {
+    "mtime": 1790715747.302314,
+    "seen": 1791815776.1116967,
+    "ast_hash": "278d617a4c9677f1992503b5820b0ce2",
+    "semantic_hash": "278d617a4c9677f1992503b5820b0ce2"
+  },
+  "project.json": {
+    "mtime": 1791815382.2519093,
+    "seen": 1791815776.1116967,
+    "ast_hash": "39c311efda7835afa265d41ea0de854d",
+    "semantic_hash": "39c311efda7835afa265d41ea0de854d"
+  },
+  "site.js": {
+    "mtime": 1790718604.917026,
+    "seen": 1791815776.1116967,
+    "ast_hash": "9a7208e8fcc8b1ca9416e36f91b259c3",
+    "semantic_hash": "9a7208e8fcc8b1ca9416e36f91b259c3"
+  },
+  "thoughts.json": {
+    "mtime": 1790719130.0960574,
+    "seen": 1791815776.1116967,
+    "ast_hash": "5c6d82d65c93eb0ee1214768966074f2",
+    "semantic_hash": "5c6d82d65c93eb0ee1214768966074f2"
+  },
+  "validate-content.mjs": {
+    "mtime": 1790715822.1107411,
+    "seen": 1791815776.1116967,
+    "ast_hash": "d21fe258380d404885b2766ea6116977",
+    "semantic_hash": "d21fe258380d404885b2766ea6116977"
+  },
+  "assets/fonts/8-bit-devanagari-license.txt": {
+    "mtime": 1781428534.0,
+    "seen": 1791815776.1116967,
+    "ast_hash": "f0de368f5a24ef8e73fbcce353f0d71e",
+    "semantic_hash": "f0de368f5a24ef8e73fbcce353f0d71e"
+  },
+  "assets/fonts/8-bit-devanagari-readme.txt": {
+    "mtime": 1781428534.0,
+    "seen": 1791815776.1116967,
+    "ast_hash": "3a72a84a5bf06d9deca7cd564b072aa9",
+    "semantic_hash": "3a72a84a5bf06d9deca7cd564b072aa9"
+  },
+  "assets/fonts/epilogue-license.txt": {
+    "mtime": 1790699249.4315045,
+    "seen": 1791815776.1116967,
+    "ast_hash": "2cfd935043a704ef949f91ecfa3c4239",
+    "semantic_hash": "2cfd935043a704ef949f91ecfa3c4239"
+  },
+  "assets/fonts/pixelify-sans-license.txt": {
+    "mtime": 1790444438.6545286,
+    "seen": 1791815776.1116967,
+    "ast_hash": "32b251b4f2beb9af0bae73f2aecb4622",
+    "semantic_hash": "32b251b4f2beb9af0bae73f2aecb4622"
+  },
+  "index.html": {
+    "mtime": 1791815278.2433317,
+    "seen": 1791815776.1116967,
+    "ast_hash": "4eb72d37f780e697d119450cbd2a1052",
+    "semantic_hash": "4eb72d37f780e697d119450cbd2a1052"
+  },
+  "assets/images/dark.png": {
+    "mtime": 1790709399.3860219,
+    "seen": 1791815776.1116967,
+    "ast_hash": "97a9af4fd0cef7972b40c2a694a05016",
+    "semantic_hash": "97a9af4fd0cef7972b40c2a694a05016"
+  },
+  "assets/images/dropdown-transparent.png": {
+    "mtime": 1790718672.0606518,
+    "seen": 1791815776.1116967,
+    "ast_hash": "57b364cf7c2383c8961b3ce77bb33399",
+    "semantic_hash": "57b364cf7c2383c8961b3ce77bb33399"
+  },
+  "assets/images/dropdown.jpg": {
+    "mtime": 1790718307.3452892,
+    "seen": 1791815776.1116967,
+    "ast_hash": "8f64d57f63a6bbe0f09e4f9e4ab05741",
+    "semantic_hash": "8f64d57f63a6bbe0f09e4f9e4ab05741"
+  },
+  "assets/images/facebook.svg": {
+    "mtime": 1790715747.3043127,
+    "seen": 1791815776.1116967,
+    "ast_hash": "74febe2f8e5a1698616425976e761fa1",
+    "semantic_hash": "74febe2f8e5a1698616425976e761fa1"
+  },
+  "assets/images/gmail.svg": {
+    "mtime": 1790715747.3033128,
+    "seen": 1791815776.1116967,
+    "ast_hash": "c899245adca014432bce8fcd1e56f2f7",
+    "semantic_hash": "c899245adca014432bce8fcd1e56f2f7"
+  },
+  "assets/images/image.png": {
+    "mtime": 1790438488.3801274,
+    "seen": 1791815776.1116967,
+    "ast_hash": "26de03b343965c0bb356695809a1b11c",
+    "semantic_hash": "26de03b343965c0bb356695809a1b11c"
+  },
+  "assets/images/instagram.svg": {
+    "mtime": 1790715747.3053138,
+    "seen": 1791815776.1116967,
+    "ast_hash": "c627a18df205cf0c36ed8db473084c93",
+    "semantic_hash": "c627a18df205cf0c36ed8db473084c93"
+  },
+  "assets/images/light.png": {
+    "mtime": 1790709399.3814914,
+    "seen": 1791815776.1116967,
+    "ast_hash": "ebe54967dea851780d1ec1d2646de182",
+    "semantic_hash": "ebe54967dea851780d1ec1d2646de182"
+  },
+  "assets/images/linkedin.svg": {
+    "mtime": 1790715747.3053138,
+    "seen": 1791815776.1116967,
+    "ast_hash": "7647868855a2374ae789163ca860e6dd",
+    "semantic_hash": "7647868855a2374ae789163ca860e6dd"
+  },
+  "assets/images/resume-monochrome.png": {
+    "mtime": 1790707977.5611875,
+    "seen": 1791815776.1116967,
+    "ast_hash": "7e310c33b0839b59e255011aeb3db3eb",
+    "semantic_hash": "7e310c33b0839b59e255011aeb3db3eb"
+  },
+  "assets/images/resume.png": {
+    "mtime": 1790700243.78229,
+    "seen": 1791815776.1116967,
+    "ast_hash": "26edb09f3a68a5a012b1dd649a1c49b7",
+    "semantic_hash": "26edb09f3a68a5a012b1dd649a1c49b7"
+  }
+}
